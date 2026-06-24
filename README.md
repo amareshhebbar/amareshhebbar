@@ -1,112 +1,117 @@
-<div align="center">
 
-# Amaresh Hebbar
 
-**AI Infrastructure Engineer · Go · Python · LLM Systems**
+<h1 align="center">I'm Amaresh Hebbar </h1>
 
-*I work at the layer between the model and production — where things silently break.*
+<p align="center">
+  <b>AI Engineer · Agentic LLM Systems & Multi-Agent Infrastructure</b><br>
+  Author of <a href="https://github.com/amareshhebbar/TrueNorth">TrueNorth</a> · I design, build, and ship production-grade AI systems end to end.
+</p>
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-1100%2B_solved-FFA116?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/u/GVAmaresh/)
-[![HuggingFace](https://img.shields.io/badge/🤗_Hugging_Face-AmareshHebbar-FFD21E?style=flat-square)](https://huggingface.co/AmareshHebbar)
-[![W&B](https://img.shields.io/badge/W%26B-Public_Dashboards-FFBE00?style=flat-square&logo=weightsandbiases&logoColor=black)](https://wandb.ai/amareshhebbar)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/gvamaresh)
-
-</div>
-
----
-
-Not prompt engineering. Not wrappers.
-
-I build the systems that sit underneath — GPU fault recovery, fine-tune version 
-control, LoRA rank prediction, context memory hierarchies, inference routing, 
-hallucination interception, model capability audits.
-
-17 production tools. Each one exists because something broke and there was 
-nothing to fix it.
-
-**Training · Fine-Tuning · Inference · Agents · Edge**  
-Go · Python · PyTorch · LangGraph · PEFT · QLoRA · Redis · VectorDB
-
----
----
-
-## Open Source Projects
-
-> Each project traces back to a single root cause: I needed the system to 
-> not fail. Training, fine-tuning, inference, agents — if it ran in production, 
-> I eventually had to instrument, patch, or rebuild it.
-
+<p align="center">
+  <a href="https://www.linkedin.com/in/gvamaresh/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://huggingface.co/AmareshHebbar"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-FFD21E?style=for-the-badge&logoColor=black" alt="Hugging Face"></a>
+  <a href="https://wandb.ai/profile/amareshhebbar"><img src="https://img.shields.io/badge/Weights%20&%20Biases-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black" alt="W&B"></a>
+  <a href="https://leetcode.com/u/GVAmaresh/"><img src="https://img.shields.io/badge/LeetCode%201000%2B-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"></a>
+  <a href="https://orcid.org/0009-0007-5020-8618"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"></a>
+</p>
 
 ---
 
-#### Distributed Compute & Telemetry
+### About
 
-| Project | Type | What It Solves | Tech Stack |
-| --- | --- | --- | --- |
-| **[`outer-wall`](https://www.google.com/search?q=%5Bhttps://github.com/amareshhebbar/outer-wall%5D(https://github.com/amareshhebbar/outer-wall))** | Runtime Infrastructure | Silent GPU faults kill overnight runs. This catches them in real-time, isolates the node, and auto-recovers. | Python · PyTorch · CUDA |
-| **[`intent-lens`](https://www.google.com/search?q=%5Bhttps://github.com/amareshhebbar/intent-lens%5D(https://github.com/amareshhebbar/intent-lens))** | Interpretability | Loss going down doesn't mean learning. Shows exactly which examples the model focuses on. | Python · PyTorch hooks · W&B |
-| **[`truenorth`](https://www.google.com/search?q=%5Bhttps://github.com/amareshhebbar/truenorth%5D(https://github.com/amareshhebbar/truenorth))** | Telemetry Pipeline | A highly reliable, immutable logging and telemetry pipeline to track absolute ground-truth states across distributed workflows. | Go · Time-Series DB |
+I build agentic AI systems — multi-agent pipelines, LLM infrastructure, and on-device inference — and take them all the way to production.
 
-#### Weights Engineering & Alignment
-
-| Project | Type | What It Solves | Tech Stack |
-| --- | --- | --- | --- |
-| **[`lineage`](https://www.google.com/search?q=%5Bhttps://github.com/amareshhebbar/lineage%5D(https://github.com/amareshhebbar/lineage))** | Fine-Tuning Ops | Version control for LoRA adapters—rollback, diff, and replay buffer auto-scheduling to prevent overwriting knowledge. | Python · PEFT · HuggingFace |
-| **[`gearsecond`](https://www.google.com/search?q=%5Bhttps://github.com/amareshhebbar/gearsecond%5D(https://github.com/amareshhebbar/gearsecond))** | Fine-Tuning Optimization | Runs 7B–13B models on 6–12GB by dynamically combining every memory trick to push hardware past natural limits. | Python · QLoRA · bitsandbytes |
-| **[`signal-flare`](https://www.google.com/search?q=%5Bhttps://github.com/amareshhebbar/signal-flare%5D(https://github.com/amareshhebbar/signal-flare))** | Training Diagnostics | 5-minute micro-probe that predicts optimal LoRA rank before committing to a full, expensive training run. | Python · PEFT · PyTorch |
-| **[`wisteria`](https://www.google.com/search?q=%5Bhttps://github.com/amareshhebbar/wisteria%5D(https://github.com/amareshhebbar/wisteria))** | Pre-Training Data Curation | Pre-training dataset scanner that filters out the 74% of web pages that are AI-generated to prevent model collapse. | Python · sentence-transformers |
-| **[`first-form`](https://www.google.com/search?q=%5Bhttps://github.com/amareshhebbar/first-form%5D(https://github.com/amareshhebbar/first-form))** | RLHF Training | A clean, unopinionated, model-agnostic GRPO trainer that isn't tied to deprecated APIs. | Python · PyTorch · trl |
-| **[`coordinatemerge`](https://www.google.com/search?q=%5Bhttps://github.com/amareshhebbar/coordinatemerge%5D(https://github.com/amareshhebbar/coordinatemerge))** | Model Merging | TIES/DARE/SLERP merge for LoRA adapters via SVD decomposition to combine multiple learned behaviors. | Python · PyTorch |
-
-#### Autonomous Agents & Memory Architecture
-
-| Project | Type | What It Solves | Tech Stack |
-| --- | --- | --- | --- |
-| **[`void-cache`](https://www.google.com/search?q=%5Bhttps://github.com/amareshhebbar/void-cache%5D(https://github.com/amareshhebbar/void-cache))** | Agent Memory | L1/L2/L3 memory hierarchy with learned eviction scoring to prevent context degradation by turn 20. | Python · Redis · LangGraph |
-| **[`hard-coat`](https://www.google.com/search?q=%5Bhttps://github.com/amareshhebbar/hard-coat%5D(https://github.com/amareshhebbar/hard-coat))** | Inference Guardrails | Real-time semantic interceptor that deflects hallucinated values that would otherwise silently pass JSON validation. | Go · Python · sentence-transformers |
-| **[`burn-rate`](https://www.google.com/search?q=%5Bhttps://github.com/amareshhebbar/burn-rate%5D(https://github.com/amareshhebbar/burn-rate))** | Post-Training Eval | Pre/post audit that scores exactly how much of a model's general capabilities degrade during fine-tuning. | Python · lm-evaluation-harness |
-| **[`shiftleft`](https://www.google.com/search?q=%5Bhttps://github.com/amareshhebbar/shiftleft%5D(https://github.com/amareshhebbar/shiftleft))** | Agentic Framework | Autonomous bug-triaging and code-fixing system that maps the codebase to draft and test fixes before deployment. | LangGraph · Gemini |
-| **[`logposesift`](https://www.google.com/search?q=%5Bhttps://github.com/amareshhebbar/logposesift%5D(https://github.com/amareshhebbar/logposesift))** | Multi-Agent System | A multi-agent DFIR (Digital Forensics and Incident Response) crew for autonomous threat tracking and response. | Python · LangGraph |
-
-#### Semantic Routing & Knowledge Engines
-
-| Project | Type | What It Solves | Tech Stack |
-| --- | --- | --- | --- |
-| **[`axis-mapper`](https://www.google.com/search?q=%5Bhttps://github.com/amareshhebbar/axis-mapper%5D(https://github.com/amareshhebbar/axis-mapper))** | Domain NLP / Routing | Traces scattered, messy, conversational patient symptoms directly to a single, exact ICD-10 medical code coordinate. | Python · NLP · LLM Routing |
-| **[`eternalpose`](https://www.google.com/search?q=%5Bhttps://github.com/amareshhebbar/eternalpose%5D(https://github.com/amareshhebbar/eternalpose))** | Inference Routing | Learned complexity classifier + Go proxy that ignores noise and routes queries to the exact, cheapest capable model. | Go · Python · Redis |
-| **[`recall`](https://www.google.com/search?q=%5Bhttps://github.com/amareshhebbar/recall%5D(https://github.com/amareshhebbar/recall))** | RAG Infrastructure | High-speed, localized context retrieval engine designed to prevent data decay across extensive multi-agent conversational sessions. | Python · VectorDB · Embeddings |
-
-#### Ecosystem Utility & Edge Deployments
-
-| Project | Type | What It Solves | Tech Stack |
-| --- | --- | --- | --- |
-| **[`allblue`](https://www.google.com/search?q=%5Bhttps://github.com/amareshhebbar/allblue%5D(https://github.com/amareshhebbar/allblue))** | API Gateway | The unified convergence layer where multiple distinct data streams, APIs, and agent tools meet into a single, seamless hub. | Go · Next.js · Unified API |
-| **[`pocketllm`](https://www.google.com/search?q=%5Bhttps://github.com/amareshhebbar/pocketllm%5D(https://github.com/amareshhebbar/pocketllm))** | Edge Deployment | Ultra-lightweight deployment wrapper to run hyper-quantized, localized reasoning models entirely on edge/mobile devices. | React Native · Expo · Local AI |
-
-## Stack
-
-```
-Training:    PyTorch · QLoRA/LoRA · PEFT · Unsloth · HuggingFace TRL · Accelerate
-Alignment:   SFT · DPO · GRPO · Model Merging (TIES · DARE · SLERP)
-Inference:   vLLM · Flash Attention 2 · FastAPI · Redis
-Agents:      LangGraph · MCP · Claude API
-Systems:     Go · Docker · GitHub Actions · Linux
-Evaluation:  Weights & Biases · lm-evaluation-harness · MMLU · HumanEval
-```
+- **Open source author** — shipped **TrueNorth** to PyPI & NPM: an LLM infrastructure engine with 1,258 passing tests, a 13-stage safety pipeline, and 8-provider routing (~90% cost reduction).
+- **Led a 10-person team** across frontend, backend, and mobile — delivering two concurrent AI product lines.
+- **Hackathon track record** — Winner of the SANS *FIND EVIL!* DFIR track; Finalist in the Google Cloud Rapid Agent Hackathon (GitLab Partner Track).
+- **Research-grade rigor** — published benchmark results (100% precision on SRL-2018 APT data), fine-tuned models on Hugging Face, experiment tracking on W&B.
+- Based in Bengaluru, India · **Open to remote-first AI engineering roles** (IST, comfortable with US/EU overlap).
 
 ---
 
-## Proof Links
+### Tech Stack
 
-- 🤗 **HuggingFace** — [huggingface.co/AmareshHebbar](https://huggingface.co/AmareshHebbar) — fine-tuned model adapters, datasets
-- 📊 **W&B Dashboards** — [wandb.ai/amareshhebbar](https://wandb.ai/amareshhebbar) — live training metrics, VRAM curves, eval scores
-- 🏆 **LeetCode** — [1100+ problems solved](https://leetcode.com/u/GVAmaresh/)
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
+</p>
+<p>
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white">
+  <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=anthropic&logoColor=white">
+  <img src="https://img.shields.io/badge/RAG-5A4FCF?style=flat-square">
+  <img src="https://img.shields.io/badge/Fine--tuning-FF6F00?style=flat-square">
+  <img src="https://img.shields.io/badge/Multi--Agent-6C63FF?style=flat-square">
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Anthropic%20Claude-D97757?style=flat-square&logo=anthropic&logoColor=white">
+  <img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white">
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white">
+  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white">
+  <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square">
+</p>
+<p>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
+  <img src="https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white">
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
+</p>
+<p>
+  <img src="https://img.shields.io/badge/React%20Native-61DAFB?style=flat-square&logo=react&logoColor=black">
+  <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white">
+  <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logo=google&logoColor=white">
+  <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white">
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white">
+</p>
 
-```
-```
+---
 
-<div align="center">
+### Featured Projects
 
-*If you hit a problem I've built a tool for — or want to talk infrastructure — reach out.*
+| Project | What it does | Stack | Highlights |
+|---------|-------------|-------|-----------|
+| **[TrueNorth](https://github.com/amareshhebbar/TrueNorth)** | Developer-first LLM infrastructure engine — declare the outcome in YAML, it owns the full multi-turn conversation lifecycle | Python · TS · Go · RN | 1,258 tests · 4 SDKs · hallucination firewall (94%) · 8-provider routing · **PyPI + NPM** |
+| **[ShiftLeft](https://github.com/amareshhebbar/ShiftLeft)** | Autonomous 5-agent bug-fixing pipeline: reads repo → triages → fixes → opens MR | Python · LangGraph · Gemini · GitLab MCP | End-to-end in ~60s, zero human steps · Google Cloud Hackathon |
+| **[LogPoseSIFT](https://github.com/amareshhebbar/LogPoseSIFT)** | Autonomous DFIR orchestrator — MCP server wraps 200+ SANS SIFT tools as typed Go endpoints | Go · Claude · Gemini · MCP · Volatility 3 | 100% precision · 92.8% recall · 0 hallucinations ·  SANS FIND EVIL!  |
+| **[PocketLLM](https://github.com/amareshhebbar/PocketLLM)** | 100% offline Android AI chat running LLMs on-device via MediaPipe C++ bridge | React Native · Expo · MediaPipe C++ · AWS S3 | 9 open-weight models (0.4–5.2 GB) · prompts never leave device |
+| **[AxisMapper](https://huggingface.co/AmareshHebbar)** | Open-source ICD-10 medical classification & insurance-intelligence model | Fine-tuned LLM · Hugging Face | Published model · medical coding automation |
+| **[AtomicRAG](https://github.com/amareshhebbar)** | Multi-hop question decomposition into atomic sub-queries with dependency graphs for RAG | Python · Qwen2.5 · RAG | Fine-tuned retrieval pipeline for complex queries |
 
-</div>
+> 🤗 Fine-tuned models live on my [Hugging Face](https://huggingface.co/AmareshHebbar) · 📊 training runs tracked on [Weights & Biases](https://wandb.ai/profile/amareshhebbar)
+
+---
+
+### GitHub Stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=amareshhebbar&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amareshhebbar&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=amareshhebbar&theme=tokyonight&hide_border=true" alt="GitHub streak">
+</p>
+
+---
+
+### Highlights
+
+- **SANS FIND EVIL! Hackathon** —  DFIR Automation Track
+- **Google Cloud Rapid Agent Hackathon** — GitLab Partner Track
+- Published **TrueNorth** to both PyPI and NPM (Apache 2.0)
+- **1000+ problems solved** on [LeetCode](https://leetcode.com/u/GVAmaresh/)
+- B.E. Computer Science & Engineering, Dayananda Sagar College of Engineering (2021–2025)
+
+---
+
+<p align="center">
+  <i>Open to remote-first AI engineering roles — LLM infrastructure, agentic systems, or AI product engineering.</i><br>
+  <b>Let's build something intelligent. </b>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=amareshhebbar&style=flat-square&color=blue" alt="Profile views">
+</p>
