@@ -1,6 +1,6 @@
 
 
-<h1 align="center">I'm Amaresh Hebbar </h1>
+<h1 align="center">Amaresh Hebbar</h1>
 
 <p align="center">
   <b>AI Engineer · Agentic LLM Systems & Multi-Agent Infrastructure</b><br>
@@ -9,8 +9,8 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/gvamaresh/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://huggingface.co/AmareshHebbar"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-FFD21E?style=for-the-badge&logoColor=black" alt="Hugging Face"></a>
-  <a href="https://wandb.ai/profile/amareshhebbar"><img src="https://img.shields.io/badge/Weights%20&%20Biases-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black" alt="W&B"></a>
+  <a href="https://huggingface.co/AmareshHebbar"><img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logoColor=black" alt="Hugging Face"></a>
+  <a href="https://wandb.ai/profile/amareshhebbar"><img src="https://img.shields.io/badge/Weights%20%26%20Biases-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black" alt="W&B"></a>
   <a href="https://leetcode.com/u/GVAmaresh/"><img src="https://img.shields.io/badge/LeetCode%201000%2B-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"></a>
   <a href="https://orcid.org/0009-0007-5020-8618"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"></a>
 </p>
@@ -23,7 +23,7 @@ I build agentic AI systems — multi-agent pipelines, LLM infrastructure, and on
 
 - **Open source author** — shipped **TrueNorth** to PyPI & NPM: an LLM infrastructure engine with 1,258 passing tests, a 13-stage safety pipeline, and 8-provider routing (~90% cost reduction).
 - **Led a 10-person team** across frontend, backend, and mobile — delivering two concurrent AI product lines.
-- **Hackathon track record** — Winner of the SANS *FIND EVIL!* DFIR track; Finalist in the Google Cloud Rapid Agent Hackathon (GitLab Partner Track).
+- **Hackathon participant** — SANS FIND EVIL! Hackathon (DFIR Automation Track) · Google Cloud Rapid Agent Hackathon (GitLab Partner Track).
 - **Research-grade rigor** — published benchmark results (100% precision on SRL-2018 APT data), fine-tuned models on Hugging Face, experiment tracking on W&B.
 - Based in Bengaluru, India · **Open to remote-first AI engineering roles** (IST, comfortable with US/EU overlap).
 
@@ -74,13 +74,13 @@ I build agentic AI systems — multi-agent pipelines, LLM infrastructure, and on
 | Project | What it does | Stack | Highlights |
 |---------|-------------|-------|-----------|
 | **[TrueNorth](https://github.com/amareshhebbar/TrueNorth)** | Developer-first LLM infrastructure engine — declare the outcome in YAML, it owns the full multi-turn conversation lifecycle | Python · TS · Go · RN | 1,258 tests · 4 SDKs · hallucination firewall (94%) · 8-provider routing · **PyPI + NPM** |
-| **[ShiftLeft](https://github.com/amareshhebbar/ShiftLeft)** | Autonomous 5-agent bug-fixing pipeline: reads repo → triages → fixes → opens MR | Python · LangGraph · Gemini · GitLab MCP | End-to-end in ~60s, zero human steps · Google Cloud Hackathon |
-| **[LogPoseSIFT](https://github.com/amareshhebbar/LogPoseSIFT)** | Autonomous DFIR orchestrator — MCP server wraps 200+ SANS SIFT tools as typed Go endpoints | Go · Claude · Gemini · MCP · Volatility 3 | 100% precision · 92.8% recall · 0 hallucinations ·  SANS FIND EVIL!  |
+| **[ShiftLeft](https://github.com/amareshhebbar/ShiftLeft)** | Autonomous 5-agent bug-fixing pipeline: reads repo → triages → generates fix → opens MR | Python · LangGraph · Gemini · GitLab MCP | End-to-end in ~60s, zero human steps · Google Cloud Rapid Agent Hackathon |
+| **[LogPoseSIFT](https://github.com/amareshhebbar/LogPoseSIFT)** | Autonomous DFIR orchestrator — MCP server wraps 200+ SANS SIFT tools as typed Go endpoints | Go · Claude · Gemini · MCP · Volatility 3 | 100% precision · 92.8% recall · 0 hallucinations · SANS FIND EVIL! Hackathon |
 | **[PocketLLM](https://github.com/amareshhebbar/PocketLLM)** | 100% offline Android AI chat running LLMs on-device via MediaPipe C++ bridge | React Native · Expo · MediaPipe C++ · AWS S3 | 9 open-weight models (0.4–5.2 GB) · prompts never leave device |
 | **[AxisMapper](https://huggingface.co/AmareshHebbar)** | Open-source ICD-10 medical classification & insurance-intelligence model | Fine-tuned LLM · Hugging Face | Published model · medical coding automation |
 | **[AtomicRAG](https://github.com/amareshhebbar)** | Multi-hop question decomposition into atomic sub-queries with dependency graphs for RAG | Python · Qwen2.5 · RAG | Fine-tuned retrieval pipeline for complex queries |
 
-> 🤗 Fine-tuned models live on my [Hugging Face](https://huggingface.co/AmareshHebbar) · 📊 training runs tracked on [Weights & Biases](https://wandb.ai/profile/amareshhebbar)
+Fine-tuned models live on [Hugging Face](https://huggingface.co/AmareshHebbar) · Training runs tracked on [Weights & Biases](https://wandb.ai/profile/amareshhebbar)
 
 ---
 
@@ -97,11 +97,33 @@ I build agentic AI systems — multi-agent pipelines, LLM infrastructure, and on
 
 ---
 
+### Hackathons
+
+| Submission | Hackathon | Description |
+|-----------|-----------|-------------|
+| **[ShiftLeft](https://devpost.com/software/shiftleft)** | Google Cloud Rapid Agent Hackathon · GitLab Partner Track | Autonomous GitLab bug-fixing agent — label an issue, autonomous 5-agent pipeline reads the repo, triages the bug, writes the fix, and opens an MR in under 60 seconds |
+| **[Poneglyphs — ShiftLeft](https://devpost.com/software/shiftleft-ml5aep)** | Google Cloud Rapid Agent Hackathon · GitLab Partner Track | Label a GitLab issue `shiftleft` → 5-agent pipeline reads GitLab Orbit, triages bug, writes fix, opens MR |
+| **[LogPoseSIFT](https://devpost.com/software/logpose-sift-autonomous-dfir)** | SANS FIND EVIL! Hackathon · DFIR Automation Track | Autonomous DFIR orchestrator — deploys a specialized AI crew via strict MCP endpoints, executing SIFT diagnostics to triage and self-correct in seconds |
+| **[AllBlue](https://devpost.com/software/allblue)** | SANS FIND EVIL! Hackathon · DFIR Automation Track | Splunk alerts trigger autonomous AI forensic triage — findings pushed back as structured IOC events. 100% precision, 0 hallucinations. Claude + Go MCP + SIFT |
+
+---
+
+### Hugging Face Models
+
+Fine-tuned and published models at **[huggingface.co/AmareshHebbar](https://huggingface.co/AmareshHebbar)**
+
+| Model | What it does |
+|-------|-------------|
+| **AxisMapper** | ICD-10 medical classification and insurance intelligence — fine-tuned for medical coding automation |
+| *(more models being published)* | Actively publishing fine-tuned models for RAG, query decomposition, and domain-specific tasks |
+
+Training runs tracked on [Weights & Biases](https://wandb.ai/profile/amareshhebbar)
+
+---
+
 ### Highlights
 
-- **SANS FIND EVIL! Hackathon** —  DFIR Automation Track
-- **Google Cloud Rapid Agent Hackathon** — GitLab Partner Track
-- Published **TrueNorth** to both PyPI and NPM (Apache 2.0)
+- Published **TrueNorth** to PyPI and NPM (Apache 2.0)
 - **1000+ problems solved** on [LeetCode](https://leetcode.com/u/GVAmaresh/)
 - B.E. Computer Science & Engineering, Dayananda Sagar College of Engineering (2021–2025)
 
@@ -109,7 +131,7 @@ I build agentic AI systems — multi-agent pipelines, LLM infrastructure, and on
 
 <p align="center">
   <i>Open to remote-first AI engineering roles — LLM infrastructure, agentic systems, or AI product engineering.</i><br>
-  <b>Let's build something intelligent. </b>
+  <b>Let's build something intelligent.</b>
 </p>
 
 <p align="center">
