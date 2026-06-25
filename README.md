@@ -135,5 +135,5 @@ Training runs tracked on [Weights & Biases](https://wandb.ai/profile/amareshhebb
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=amareshhebbar&style=flat-square&color=blue" alt="Profile views">
+  <img src="https://komarev.com/ghpvc/?username=amareshhebbar&style=flat-square&color=blue&base=0" alt="Profile views">
 </p>
