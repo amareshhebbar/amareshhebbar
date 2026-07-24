@@ -15,6 +15,9 @@
 
 ---
 
+GITHUB ORGANISATION WHERE I AM WORKING [ONENOT8](https://github.com/onenot8)
+*here my code is hidden*
+
 ### About
 
 I build agentic AI systems — multi-agent pipelines, LLM infrastructure, on-device inference, and domain fine-tuning — and take them all the way to production.
