@@ -1,0 +1,63 @@
+name: Update Activity Stats
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests matplotlib python-dateutil
+
+      - name: Fetch monthly contributions
+        env:
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: python scripts/fetch_contributions.py
+
+      - name: Fetch today/yesterday activity
+        env:
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: python scripts/fetch_today_yesterday.py
+
+      - name: Fetch repo focus
+        env:
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: python scripts/fetch_repo_focus.py
+
+      - name: Render monthly chart
+        run: python scripts/render_monthly.py
+
+      - name: Render daily chart
+        run: python scripts/render_daily.py
+
+      - name: Render repo focus chart
+        run: python scripts/render_repo_focus.py
+
+      - name: Update README timestamp
+        run: python scripts/update_timestamp.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ assets/ README.md
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: update activity stats"
+            git push
+          fi

@@ -153,6 +153,20 @@ A suite of **Qwen2.5 specialist models**, one per clinical task. Each model is t
 
 ---
 
+### Activity
+
+<p align="center">
+  <img src="./assets/stats/monthly_activity.svg" alt="Monthly commit and pull request activity">
+</p>
+
+<p align="center">
+  <img src="./assets/stats/today_activity.svg" alt="Today vs yesterday commit and pull request activity">
+</p>
+
+<p align="center"><sub>Auto-generated from live account data, refreshed every 6 hours · Last updated: <!--STATS-TIME-->pending first workflow run<!--END--></sub></p>
+
+---
+
 ### Highlights
 
 - Published **TrueNorth** to PyPI and NPM (Apache 2.0)
