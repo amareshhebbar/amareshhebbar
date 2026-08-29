@@ -1,0 +1,74 @@
+name: Watch and Traffic Report
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+    - cron: "30 18 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Report mode"
+        required: true
+        default: "window"
+        type: choice
+        options:
+          - window
+          - daily
+
+permissions:
+  contents: write
+
+jobs:
+  watch-report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Ensure output dirs
+        run: mkdir -p data
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Determine mode
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            echo "mode=${{ github.event.inputs.mode }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" == "30 18 * * *" ]; then
+            echo "mode=daily" >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=window" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Fetch watchers and traffic
+        env:
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: python scripts/fetch_watch_traffic.py
+
+      - name: Diff and update history
+        run: python scripts/diff_watch_history.py
+
+      - name: Send report email
+        env:
+          EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
+          EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
+        run: python scripts/send_watch_report.py --mode ${{ steps.mode.outputs.mode }}
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: update watch and traffic data"
+            git push
+          fi
