@@ -100,7 +100,13 @@ def main():
         totals["views_uniques_14d"] += data["views_uniques_total"]
 
         repo_log = daily_log.setdefault(repo, {})
-        repo_log[today] = {"count": views_today_count, "uniques": views_today_uniques}
+        for date_entry in data["views_daily"]:
+            date = date_entry.get("timestamp", "")[:10]
+            if date:
+                repo_log[date] = {
+                    "count": date_entry.get("count", 0),
+                    "uniques": date_entry.get("uniques", 0)
+                }
 
     cutoff_date = (now - timedelta(days=DAILY_LOG_RETENTION_DAYS)).strftime("%Y-%m-%d")
     for repo in daily_log:
