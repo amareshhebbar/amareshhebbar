@@ -1,11 +1,13 @@
 import os
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 RAW_PATH = "data/watch_raw.json"
 STATE_PATH = "data/watchers_state.json"
 HISTORY_PATH = "data/watch_history.json"
+DAILY_LOG_PATH = "data/views_daily_log.json"
 MAX_HISTORY_ENTRIES = 200
+DAILY_LOG_RETENTION_DAYS = 400
 
 
 def load_json(path, default):
@@ -33,6 +35,7 @@ def main():
 
     prev_watchers_state = load_json(STATE_PATH, {})
     history = load_json(HISTORY_PATH, [])
+    daily_log = load_json(DAILY_LOG_PATH, {})
     last_entry = history[-1] if history else None
 
     now = datetime.now(timezone.utc)
@@ -93,6 +96,13 @@ def main():
         totals["views_total_14d"] += data["views_count_total"]
         totals["views_uniques_14d"] += data["views_uniques_total"]
 
+        repo_log = daily_log.setdefault(repo, {})
+        repo_log[today] = {"count": views_today_count, "uniques": views_today_uniques}
+
+    cutoff_date = (now - timedelta(days=DAILY_LOG_RETENTION_DAYS)).strftime("%Y-%m-%d")
+    for repo in daily_log:
+        daily_log[repo] = {d: v for d, v in daily_log[repo].items() if d >= cutoff_date}
+
     new_entry = {
         "timestamp": raw["timestamp"],
         "repos": entry_repos,
@@ -107,6 +117,8 @@ def main():
         json.dump(history, f, indent=2)
     with open(STATE_PATH, "w") as f:
         json.dump(new_watchers_state, f, indent=2)
+    with open(DAILY_LOG_PATH, "w") as f:
+        json.dump(daily_log, f, indent=2)
 
 
 if __name__ == "__main__":

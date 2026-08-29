@@ -6,6 +6,7 @@ from email.mime.text import MIMEText
 from datetime import datetime, timezone, timedelta
 
 HISTORY_PATH = "data/watch_history.json"
+DAILY_LOG_PATH = "data/views_daily_log.json"
 RECIPIENT = "reshama0302@gmail.com"
 
 
@@ -14,11 +15,56 @@ def load_history():
         return json.load(f)
 
 
-def build_window_report(history):
+def load_daily_log():
+    if not os.path.exists(DAILY_LOG_PATH):
+        return {}
+    with open(DAILY_LOG_PATH, "r") as f:
+        return json.load(f)
+
+
+def sum_period(daily_log, today, num_days):
+    cutoff = (datetime.strptime(today, "%Y-%m-%d") - timedelta(days=num_days - 1)).strftime("%Y-%m-%d")
+    total_count = 0
+    total_uniques = 0
+    for repo, days in daily_log.items():
+        for date, values in days.items():
+            if date >= cutoff:
+                total_count += values["count"]
+                total_uniques += values["uniques"]
+    return total_count, total_uniques
+
+
+def sum_all_time(daily_log):
+    total_count = 0
+    total_uniques = 0
+    for repo, days in daily_log.items():
+        for date, values in days.items():
+            total_count += values["count"]
+            total_uniques += values["uniques"]
+    return total_count, total_uniques
+
+
+def build_period_summary(daily_log, today):
+    day_count, day_uniques = sum_period(daily_log, today, 1)
+    week_count, week_uniques = sum_period(daily_log, today, 7)
+    month_count, month_uniques = sum_period(daily_log, today, 30)
+    all_count, all_uniques = sum_all_time(daily_log)
+
+    lines = []
+    lines.append("Views Summary (across all public repos):")
+    lines.append(f"  Today: {day_count} views, {day_uniques} unique")
+    lines.append(f"  This Week: {week_count} views, {week_uniques} unique")
+    lines.append(f"  This Month: {month_count} views, {month_uniques} unique")
+    lines.append(f"  All-Time (since tracking began): {all_count} views, {all_uniques} unique")
+    return "\n".join(lines)
+
+
+def build_window_report(history, daily_log):
     if not history:
         return "No data available yet."
 
     entry = history[-1]
+    today = entry["timestamp"][:10]
     lines = []
     lines.append("GitHub Activity Report — Last 6 Hours")
     lines.append(f"Generated: {entry['timestamp']}")
@@ -42,10 +88,12 @@ def build_window_report(history):
         f"Totals right now: {t['watchers_total']} watchers across all repos, "
         f"{t['views_today_count']} views today, {t['views_today_uniques']} unique today"
     )
+    lines.append("")
+    lines.append(build_period_summary(daily_log, today))
     return "\n".join(lines)
 
 
-def build_daily_report(history):
+def build_daily_report(history, daily_log):
     if not history:
         return "No data available yet."
 
@@ -56,6 +104,7 @@ def build_daily_report(history):
         window_entries = [history[-1]]
 
     latest = history[-1]
+    today = latest["timestamp"][:10]
     repo_agg = {}
     for e in window_entries:
         for repo, r in e["repos"].items():
@@ -82,6 +131,8 @@ def build_daily_report(history):
     lines.append(f"  New watchers today: {sum(len(a['new_watchers']) for a in repo_agg.values())}")
     lines.append(f"  Total views today: {sum(a['views'] for a in repo_agg.values())}")
     lines.append(f"  Unique visitors today: {sum(a['uniques'] for a in repo_agg.values())}")
+    lines.append("")
+    lines.append(build_period_summary(daily_log, today))
     return "\n".join(lines)
 
 
@@ -105,13 +156,14 @@ def main():
     args = parser.parse_args()
 
     history = load_history()
+    daily_log = load_daily_log()
 
     if args.mode == "daily":
         subject = "GitHub Daily Activity Report"
-        body = build_daily_report(history)
+        body = build_daily_report(history, daily_log)
     else:
         subject = "GitHub Activity Report — 6 Hour Update"
-        body = build_window_report(history)
+        body = build_window_report(history, daily_log)
 
     send_email(subject, body)
     print(f"sent {args.mode} report")
