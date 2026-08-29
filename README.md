@@ -146,10 +146,24 @@ A suite of **Qwen2.5 specialist models**, one per clinical task. Each model is t
 ### GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=amareshhebbar&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amareshhebbar&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages">
+  <table>
+    <tr>
+<td>
+  
+![GitHub Stats](https://github-stats-extended.vercel.app/api?username=amareshhebbar&rank_icon=github&show=reviews%2Cdiscussions_started%2Cdiscussions_answered%2Cprs_merged%2Cprs_merged_percentage%2Cprs_commented%2Cprs_reviewed%2Cissues_commented&show_icons=true&include_all_commits=true&theme=shadow_green)
+
+</td>
+      <td>
+        
+![Top Languages](https://github-stats-extended.vercel.app/api/top-langs?username=amareshhebbar&layout=pie&langs_count=20&hide_values=true&theme=shadow_red)
+
+
+</td>
 </p>
 
+ </tr>
+  </table>
+</p>
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=amareshhebbar&theme=tokyonight&hide_border=true" alt="GitHub streak">
 </p>
