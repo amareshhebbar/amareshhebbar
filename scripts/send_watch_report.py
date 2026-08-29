@@ -19,7 +19,10 @@ def load_daily_log():
     if not os.path.exists(DAILY_LOG_PATH):
         return {}
     with open(DAILY_LOG_PATH, "r") as f:
-        return json.load(f)
+        content = f.read().strip()
+    if not content:
+        return {}
+    return json.loads(content)
 
 
 def sum_period(daily_log, today, num_days):

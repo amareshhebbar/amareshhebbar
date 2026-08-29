@@ -14,7 +14,10 @@ def load_json(path, default):
     if not os.path.exists(path):
         return default
     with open(path, "r") as f:
-        return json.load(f)
+        content = f.read().strip()
+    if not content:
+        return default
+    return json.loads(content)
 
 
 def today_key(iso_timestamp):
