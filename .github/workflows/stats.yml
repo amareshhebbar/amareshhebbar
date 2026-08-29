@@ -43,6 +43,9 @@ jobs:
 
       - name: Render monthly chart
         run: python scripts/render_monthly.py
+        
+      - name: Render month summary
+        run: python scripts/render_month_summary.py
 
       - name: Render daily chart
         run: python scripts/render_daily.py
