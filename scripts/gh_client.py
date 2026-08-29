@@ -9,6 +9,11 @@ def run_query(token, query, variables):
         json={"query": query, "variables": variables},
         headers={"Authorization": f"bearer {token}"}
     )
+    if response.status_code == 401:
+        raise RuntimeError(
+            f"GitHub auth failed (401). Body: {response.text}. "
+            f"Check STATS_TOKEN is set, unexpired, and has read:user scope."
+        )
     response.raise_for_status()
     data = response.json()
     if "errors" in data:
