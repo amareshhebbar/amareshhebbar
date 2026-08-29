@@ -171,17 +171,16 @@ A suite of **Qwen2.5 specialist models**, one per clinical task. Each model is t
 ---
 
 ### Activity
-
+<p align="center">
+  <img src="./assets/stats/month_summary.svg" alt="This month's commit summary">
+</p>
 <p align="center">
   <img src="./assets/stats/monthly_activity.svg" alt="Monthly commit and pull request activity">
 </p>
-
 <p align="center">
   <img src="./assets/stats/today_activity.svg" alt="Today vs yesterday commit and pull request activity">
 </p>
-
-<p align="center"><sub>Auto-generated from live account data, refreshed every 6 hours · Last updated: <!--STATS-TIME-->2026-08-29 07:12 UTC<!--END--></sub></p>
-
+<p align="center"><sub>Auto-generated from live account data, refreshed every 6 hours · Last updated: <!--STATS-TIME-->2026-08-29 06:20 UTC<!--END--></sub></p>
 ---
 
 ### Highlights
