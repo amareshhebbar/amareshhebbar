@@ -15,6 +15,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Ensure output dirs
+        run: mkdir -p assets/stats data
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:

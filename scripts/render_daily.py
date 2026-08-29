@@ -1,4 +1,5 @@
 import json
+import os
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -17,7 +18,6 @@ def main():
         d = json.load(f)
 
     today, yesterday = d["today"], d["yesterday"]
-
     labels = ["Yesterday", "Today"]
     commits = [yesterday["commits"], today["commits"]]
     prs = [yesterday["prs"], today["prs"]]
@@ -50,6 +50,7 @@ def main():
             )
 
     fig.tight_layout()
+    os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     fig.savefig(OUT_PATH, transparent=True, format="svg")
 
 

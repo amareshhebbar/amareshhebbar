@@ -1,4 +1,5 @@
 import json
+import os
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -22,7 +23,6 @@ def main():
     fig, ax = plt.subplots(figsize=(7, 3), dpi=150)
     fig.patch.set_alpha(0)
     ax.patch.set_alpha(0)
-
     bars = ax.barh(labels, values, color=BAR_COLOR, height=0.5)
     ax.set_title("Repo Focus — This Month", color=FG, fontsize=10, loc="left")
     ax.tick_params(colors=FG, labelsize=8)
@@ -42,6 +42,7 @@ def main():
         )
 
     fig.tight_layout()
+    os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     fig.savefig(OUT_PATH, transparent=True, format="svg")
 
 

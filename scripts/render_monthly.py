@@ -1,4 +1,5 @@
 import json
+import os
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -38,7 +39,6 @@ def main():
 
     fig, (ax1, ax3) = plt.subplots(2, 1, figsize=(11, 6.5), dpi=150, sharex=True)
     fig.patch.set_alpha(0)
-
     ax1.patch.set_alpha(0)
     ax2 = ax1.twinx()
     ax1.bar(months, prs, color=PR_COLOR, alpha=0.55, width=0.5, label="Pull Requests")
@@ -73,6 +73,7 @@ def main():
     )
 
     fig.tight_layout(rect=[0, 0, 1, 0.96])
+    os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     fig.savefig(OUT_PATH, transparent=True, format="svg")
 
 
