@@ -10307,5 +10307,280 @@
       "views_total_14d": 189,
       "views_uniques_14d": 31
     }
+  },
+  {
+    "timestamp": "2026-09-05T04:01:20.090819+00:00",
+    "repos": {
+      "AgentKit": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 0,
+        "views_uniques_14d": 0
+      },
+      "AllBlue": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 2,
+        "views_uniques_14d": 2
+      },
+      "amareshhebbar": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 117,
+        "views_uniques_14d": 4
+      },
+      "AtomicRAG": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 1,
+        "views_uniques_14d": 1
+      },
+      "AxisMapper": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 1,
+        "views_uniques_14d": 1
+      },
+      "bitnarrow": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 17,
+        "views_uniques_14d": 3
+      },
+      "hatpet": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 14,
+        "views_uniques_14d": 3
+      },
+      "hiresignal": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 0,
+        "views_uniques_14d": 0
+      },
+      "LogPoseSIFT": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 6,
+        "views_uniques_14d": 4
+      },
+      "mdflow": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 3,
+        "views_uniques_14d": 2
+      },
+      "netra": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 0,
+        "views_uniques_14d": 0
+      },
+      "oceanai_website": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 3,
+        "views_uniques_14d": 1
+      },
+      "ollama-vscode": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 0,
+        "views_uniques_14d": 0
+      },
+      "pLLM": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 0,
+        "views_uniques_14d": 0
+      },
+      "PocketLLM": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 5,
+        "views_uniques_14d": 2
+      },
+      "PocketLLM-backend": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 0,
+        "views_uniques_14d": 0
+      },
+      "PocketLLM-expoFrontend": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 0,
+        "views_uniques_14d": 0
+      },
+      "Radeon-hackathon-2026-07": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 0,
+        "views_uniques_14d": 0
+      },
+      "raiseTicket": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 0,
+        "views_uniques_14d": 0
+      },
+      "Recall": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 5,
+        "views_uniques_14d": 2
+      },
+      "ShiftLeft": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 8,
+        "views_uniques_14d": 2
+      },
+      "sidepanel": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 3,
+        "views_uniques_14d": 1
+      },
+      "TrueNorth": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 4,
+        "views_uniques_14d": 3
+      },
+      "truenorth-framework.github.io": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 0,
+        "views_uniques_14d": 0
+      },
+      "TrueNorth-samples": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 0,
+        "views_uniques_14d": 0
+      },
+      "unsloth-zoo": {
+        "watchers_total": 0,
+        "watchers_new": [],
+        "views_today_count": 0,
+        "views_today_uniques": 0,
+        "views_delta_count": 0,
+        "views_delta_uniques": 0,
+        "views_total_14d": 0,
+        "views_uniques_14d": 0
+      }
+    },
+    "totals": {
+      "watchers_total": 0,
+      "watchers_new": 0,
+      "views_today_count": 0,
+      "views_today_uniques": 0,
+      "views_delta_count": 0,
+      "views_delta_uniques": 0,
+      "views_total_14d": 189,
+      "views_uniques_14d": 31
+    }
   }
 ]
