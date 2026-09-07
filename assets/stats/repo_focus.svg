@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-09-07T10:57:48.689576</dc:date>
+    <dc:date>2026-09-07T16:48:16.866078</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -45,7 +45,7 @@ L 278.284881 196.985455
 L 278.284881 142.221818 
 L 82.9075 142.221818 
 z
-" clip-path="url(#pe52cf51f5f)" style="fill: #58a6ff"/>
+" clip-path="url(#p245f5f3785)" style="fill: #58a6ff"/>
    </g>
    <g id="patch_4">
     <path d="M 82.9075 87.458182 
@@ -53,19 +53,19 @@ L 473.662262 87.458182
 L 473.662262 32.694545 
 L 82.9075 32.694545 
 z
-" clip-path="url(#pe52cf51f5f)" style="fill: #58a6ff"/>
+" clip-path="url(#p245f5f3785)" style="fill: #58a6ff"/>
    </g>
    <g id="matplotlib.axis_1"/>
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_1">
       <defs>
-       <path id="mf4955107d5" d="M 0 0 
+       <path id="m96b99ccbac" d="M 0 0 
 L -3.5 0 
 " style="stroke: #c9d1d9; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#mf4955107d5" x="82.9075" y="169.603636" style="fill: #c9d1d9; stroke: #c9d1d9; stroke-width: 0.8"/>
+       <use xlink:href="#m96b99ccbac" x="82.9075" y="169.603636" style="fill: #c9d1d9; stroke: #c9d1d9; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_1">
@@ -345,7 +345,7 @@ z
     <g id="ytick_2">
      <g id="line2d_2">
       <g>
-       <use xlink:href="#mf4955107d5" x="82.9075" y="60.076364" style="fill: #c9d1d9; stroke: #c9d1d9; stroke-width: 0.8"/>
+       <use xlink:href="#m96b99ccbac" x="82.9075" y="60.076364" style="fill: #c9d1d9; stroke: #c9d1d9; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_2">
@@ -674,7 +674,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pe52cf51f5f">
+  <clipPath id="p245f5f3785">
    <rect x="82.9075" y="24.48" width="410.2925" height="180.72"/>
   </clipPath>
  </defs>
