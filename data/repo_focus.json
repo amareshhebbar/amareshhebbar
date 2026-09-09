@@ -1,12 +1,12 @@
 [
   {
     "repo": "fitness-frontend",
-    "commits": 2,
+    "commits": 3,
     "private": true
   },
   {
     "repo": "fitness-backend",
-    "commits": 1,
+    "commits": 2,
     "private": true
   }
 ]
