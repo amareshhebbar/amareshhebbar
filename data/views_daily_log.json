@@ -1425,6 +1425,10 @@
     "2026-09-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-09-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "PocketLLM-backend": {
@@ -1627,6 +1631,10 @@
       "uniques": 0
     },
     "2026-09-07": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-09-08": {
       "count": 0,
       "uniques": 0
     }

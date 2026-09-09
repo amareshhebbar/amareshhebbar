@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-09T04:16:06.368962+00:00",
+  "timestamp": "2026-09-09T11:06:31.870710+00:00",
   "repos": {
     "AgentKit": {
       "watchers": [],
@@ -1085,11 +1085,6 @@
       "views_uniques_total": 2,
       "views_daily": [
         {
-          "timestamp": "2026-08-25T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-08-26T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -1151,6 +1146,11 @@
         },
         {
           "timestamp": "2026-09-07T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-09-08T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -1239,11 +1239,6 @@
       "views_uniques_total": 0,
       "views_daily": [
         {
-          "timestamp": "2026-08-25T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-08-26T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -1305,6 +1300,11 @@
         },
         {
           "timestamp": "2026-09-07T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-09-08T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
