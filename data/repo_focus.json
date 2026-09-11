@@ -1,11 +1,16 @@
 [
   {
     "repo": "fitness-frontend",
-    "commits": 3,
+    "commits": 5,
     "private": true
   },
   {
     "repo": "fitness-backend",
+    "commits": 3,
+    "private": true
+  },
+  {
+    "repo": "shiftleft_v2",
     "commits": 2,
     "private": true
   }
