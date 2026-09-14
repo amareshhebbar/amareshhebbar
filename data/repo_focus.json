@@ -5,13 +5,18 @@
     "private": true
   },
   {
+    "repo": "fitness-backend",
+    "commits": 4,
+    "private": true
+  },
+  {
     "repo": "shiftleft_v2",
     "commits": 4,
     "private": true
   },
   {
-    "repo": "fitness-backend",
-    "commits": 3,
+    "repo": "next_life_frontend",
+    "commits": 1,
     "private": true
   }
 ]
