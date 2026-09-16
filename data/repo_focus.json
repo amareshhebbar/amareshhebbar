@@ -15,6 +15,11 @@
     "private": true
   },
   {
+    "repo": "next_life_backend",
+    "commits": 1,
+    "private": true
+  },
+  {
     "repo": "next_life_frontend",
     "commits": 1,
     "private": true
