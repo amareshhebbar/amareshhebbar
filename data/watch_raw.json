@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-16T16:37:45.485403+00:00",
+  "timestamp": "2026-09-16T21:09:42.299220+00:00",
   "repos": {
     "AgentKit": {
       "watchers": [],
@@ -546,11 +546,6 @@
       "views_uniques_total": 0,
       "views_daily": [
         {
-          "timestamp": "2026-09-01T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-09-02T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -612,6 +607,11 @@
         },
         {
           "timestamp": "2026-09-14T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-09-15T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -854,11 +854,6 @@
       "views_uniques_total": 1,
       "views_daily": [
         {
-          "timestamp": "2026-09-01T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-09-02T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -920,6 +915,11 @@
         },
         {
           "timestamp": "2026-09-14T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-09-15T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -1547,11 +1547,6 @@
       "views_uniques_total": 1,
       "views_daily": [
         {
-          "timestamp": "2026-09-01T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-09-02T00:00:00Z",
           "count": 3,
           "uniques": 1
@@ -1613,6 +1608,11 @@
         },
         {
           "timestamp": "2026-09-14T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-09-15T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -1778,11 +1778,6 @@
       "views_uniques_total": 0,
       "views_daily": [
         {
-          "timestamp": "2026-09-01T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-09-02T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -1844,6 +1839,11 @@
         },
         {
           "timestamp": "2026-09-14T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-09-15T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
