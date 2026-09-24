@@ -1,12 +1,12 @@
 [
   {
     "repo": "fitness-frontend",
-    "commits": 9,
+    "commits": 12,
     "private": true
   },
   {
     "repo": "fitness-backend",
-    "commits": 6,
+    "commits": 9,
     "private": true
   },
   {
@@ -20,7 +20,12 @@
     "private": true
   },
   {
-    "repo": "next_life_frontend",
+    "repo": "community_backend",
+    "commits": 1,
+    "private": true
+  },
+  {
+    "repo": "community_frontend",
     "commits": 1,
     "private": true
   }
