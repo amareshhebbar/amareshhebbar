@@ -15,17 +15,17 @@
     "private": true
   },
   {
+    "repo": "airweight-ai-web",
+    "commits": 2,
+    "private": true
+  },
+  {
     "repo": "next_life_backend",
     "commits": 2,
     "private": true
   },
   {
     "repo": "community_backend",
-    "commits": 1,
-    "private": true
-  },
-  {
-    "repo": "community_frontend",
     "commits": 1,
     "private": true
   }
