@@ -1,5 +1,10 @@
 [
   {
+    "repo": "gitgrounded",
+    "commits": 22,
+    "private": false
+  },
+  {
     "repo": "fitness-frontend",
     "commits": 12,
     "private": true
@@ -22,11 +27,6 @@
   {
     "repo": "next_life_backend",
     "commits": 2,
-    "private": true
-  },
-  {
-    "repo": "community_backend",
-    "commits": 1,
     "private": true
   }
 ]
