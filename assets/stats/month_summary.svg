@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-09-26T10:27:47.717791</dc:date>
+    <dc:date>2026-09-26T15:18:41.431642</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -37,20 +37,20 @@ L 423.36 9.36
 L 8.64 9.36 
 L 8.64 177.84 
 z
-" clip-path="url(#pd775be667f)" style="fill: none; stroke: #30363d; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#p52b289e994)" style="fill: none; stroke: #30363d; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="line2d_1">
     <path d="M 8.64 134.784 
 L 423.36 134.784 
-" clip-path="url(#pd775be667f)" style="fill: none; stroke: #30363d; stroke-linecap: square"/>
+" clip-path="url(#p52b289e994)" style="fill: none; stroke: #30363d; stroke-linecap: square"/>
    </g>
    <g id="line2d_2">
     <path d="M 216 177.84 
 L 216 134.784 
-" clip-path="url(#pd775be667f)" style="fill: none; stroke: #30363d; stroke-linecap: square"/>
+" clip-path="url(#p52b289e994)" style="fill: none; stroke: #30363d; stroke-linecap: square"/>
    </g>
    <g id="text_1">
-    <!-- 54 -->
+    <!-- 57 -->
     <g style="fill: #58a6ff" transform="translate(186.777187 70.814156) scale(0.42 -0.42)">
      <defs>
       <path id="DejaVuSans-Bold-18" d="M 678 4666 
@@ -78,28 +78,19 @@ Q 1016 2181 678 2041
 L 678 4666 
 z
 " transform="scale(0.015625)"/>
-      <path id="DejaVuSans-Bold-17" d="M 2356 3675 
-L 1038 1722 
-L 2356 1722 
-L 2356 3675 
-z
-M 2156 4666 
-L 3494 4666 
-L 3494 1722 
-L 4159 1722 
-L 4159 850 
-L 3494 850 
-L 3494 0 
-L 2356 0 
-L 2356 850 
-L 288 850 
-L 288 1881 
-L 2156 4666 
+      <path id="DejaVuSans-Bold-1a" d="M 428 4666 
+L 3944 4666 
+L 3944 3988 
+L 2125 0 
+L 953 0 
+L 2675 3781 
+L 428 3781 
+L 428 4666 
 z
 " transform="scale(0.015625)"/>
      </defs>
      <use xlink:href="#DejaVuSans-Bold-18"/>
-     <use xlink:href="#DejaVuSans-Bold-17" transform="translate(69.578125 0)"/>
+     <use xlink:href="#DejaVuSans-Bold-1a" transform="translate(69.578125 0)"/>
     </g>
    </g>
    <g id="text_2">
@@ -356,16 +347,6 @@ Q 3472 2313 2841 1759
 L 1844 884 
 z
 " transform="scale(0.015625)"/>
-      <path id="DejaVuSans-Bold-1a" d="M 428 4666 
-L 3944 4666 
-L 3944 3988 
-L 2125 0 
-L 953 0 
-L 2675 3781 
-L 428 3781 
-L 428 4666 
-z
-" transform="scale(0.015625)"/>
      </defs>
      <use xlink:href="#DejaVuSans-Bold-15"/>
      <use xlink:href="#DejaVuSans-Bold-1a" transform="translate(69.578125 0)"/>
@@ -551,7 +532,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pd775be667f">
+  <clipPath id="p52b289e994">
    <rect x="0" y="0" width="432" height="187.2"/>
   </clipPath>
  </defs>
