@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-30T22:27:48.172905+00:00",
+  "timestamp": "2026-10-01T05:24:30.895668+00:00",
   "repos": {
     "AgentKit": {
       "watchers": [],
@@ -700,11 +700,6 @@
       "views_uniques_total": 2,
       "views_daily": [
         {
-          "timestamp": "2026-09-16T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-09-17T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -766,6 +761,11 @@
         },
         {
           "timestamp": "2026-09-29T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-09-30T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -1547,11 +1547,6 @@
       "views_uniques_total": 0,
       "views_daily": [
         {
-          "timestamp": "2026-09-16T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-09-17T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -1613,6 +1608,11 @@
         },
         {
           "timestamp": "2026-09-29T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-09-30T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -1624,11 +1624,6 @@
       "views_uniques_total": 2,
       "views_daily": [
         {
-          "timestamp": "2026-09-16T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-09-17T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -1692,6 +1687,11 @@
           "timestamp": "2026-09-29T00:00:00Z",
           "count": 1,
           "uniques": 1
+        },
+        {
+          "timestamp": "2026-09-30T00:00:00Z",
+          "count": 0,
+          "uniques": 0
         }
       ]
     },
