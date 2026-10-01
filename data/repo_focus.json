@@ -1,17 +1,17 @@
 [
   {
-    "repo": "bitnarrow",
-    "commits": 1,
-    "private": false
-  },
-  {
     "repo": "fitness-backend",
-    "commits": 1,
+    "commits": 2,
     "private": true
   },
   {
     "repo": "fitness-frontend",
-    "commits": 1,
+    "commits": 2,
     "private": true
+  },
+  {
+    "repo": "bitnarrow",
+    "commits": 1,
+    "private": false
   }
 ]
