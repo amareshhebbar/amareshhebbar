@@ -1,5 +1,15 @@
 [
   {
+    "repo": "modeldiffr",
+    "commits": 4,
+    "private": false
+  },
+  {
+    "repo": "amareshhebbar",
+    "commits": 3,
+    "private": false
+  },
+  {
     "repo": "fitness-backend",
     "commits": 2,
     "private": true
@@ -8,6 +18,11 @@
     "repo": "fitness-frontend",
     "commits": 2,
     "private": true
+  },
+  {
+    "repo": "issueLoop",
+    "commits": 1,
+    "private": false
   },
   {
     "repo": "bitnarrow",
