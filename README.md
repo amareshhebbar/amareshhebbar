@@ -2,24 +2,19 @@
 
 <p align="center">
   <b>AI Engineer · Agentic LLM Systems · Model Auditing · Multi Agent Infrastructure · Medical AI</b><br>
-  Author of <a href="https://github.com/amareshhebbar/modeldiffr">Modeldiffr</a> and <a href="https://github.com/amareshhebbar/TrueNorth">TrueNorth</a>. I design, fine tune, and ship production grade AI systems end to end.
+I design, fine tune, and ship production grade AI systems end to end.
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/gvamaresh/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://www.linkedin.com/company/impossible-ai/"><img src="https://img.shields.io/badge/Impossible%20AI-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Impossible AI"></a>
   <a href="https://huggingface.co/AmareshHebbar"><img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logoColor=black" alt="Hugging Face"></a>
-  <a href="https://pypi.org/project/modeldiffr/"><img src="https://img.shields.io/badge/PyPI%20modeldiffr-3775A9?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI"></a>
   <a href="https://wandb.ai/amareshhebbar-/axiomapper"><img src="https://img.shields.io/badge/Weights%20%26%20Biases-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black" alt="W&B"></a>
   <a href="https://leetcode.com/u/GVAmaresh/"><img src="https://img.shields.io/badge/LeetCode%201000%2B-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"></a>
   <a href="https://orcid.org/0009-0007-5020-8618"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"></a>
 </p>
 
 <hr>
-
-> My ***OWN*** GITHUB ORGANISATION: [ONENOT8](https://github.com/onenot8)
->
-> *my private and production code lives here*
 
 ### About
 
@@ -38,9 +33,9 @@ I build agentic AI systems: multi agent pipelines, LLM infrastructure, model aud
 
 | Role | Organisation | What I do |
 |------|--------------|-----------|
-| **AI Engineering Lead** | [Impossible AI](https://www.linkedin.com/company/impossible-ai/) (Bengaluru · San Francisco) | Building the on device LLM inference layer with cloud fallback routing for the Impossible AI product line |
-| **Applied AI Engineer, ClinicalSearch** | [AnacodicAI Labs](https://anacodicai.org/get-started) (founded at Boston University) · contributing under project lead [Rashan Kaur](https://www.linkedin.com/in/rashan-kaur/) | Multi agent clinical evidence retrieval system for plastic and reconstructive surgery: AWS Strands Agents SDK, Pinecone vector search, FastAPI backend, Vite and TypeScript frontend, a fully local Ollama inference stack, and benchmark suites for extraction quality and LLM provider comparison |
-| **Cofounder and AI Engineering Lead** | Studio Ilios / Humanova Minds (Bengaluru) | Leading a 10 person team shipping OceanAI, FuelPilot, and Sportora |
+| **Team Lead, AI/ML Engg** | [Impossible AI](https://www.linkedin.com/company/impossible-ai/) (Bengaluru) | Building the on device LLM inference layer with cloud fallback routing for the Impossible AI product line |
+| **Closed Contributor, ClinicalSearch** | [AnacodicAI Labs](https://anacodicai.org/get-started) (founded at Boston University) · contributing under project lead [Rashan Kaur](https://www.linkedin.com/in/rashan-kaur/) | Multi agent clinical evidence retrieval system for plastic and reconstructive surgery: AWS Strands Agents SDK, Pinecone vector search, FastAPI backend, Vite and TypeScript frontend, a fully local Ollama inference stack, and benchmark suites for extraction quality and LLM provider comparison |
+
 
 Featured on LinkedIn: [view post](https://lnkd.in/p/dp_jS7S2)
 
