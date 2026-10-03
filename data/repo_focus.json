@@ -10,6 +10,11 @@
     "private": false
   },
   {
+    "repo": "bitnarrow",
+    "commits": 2,
+    "private": false
+  },
+  {
     "repo": "fitness-backend",
     "commits": 2,
     "private": true
@@ -21,11 +26,6 @@
   },
   {
     "repo": "issueLoop",
-    "commits": 1,
-    "private": false
-  },
-  {
-    "repo": "bitnarrow",
     "commits": 1,
     "private": false
   }
