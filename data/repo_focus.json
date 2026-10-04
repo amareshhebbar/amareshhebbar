@@ -1,5 +1,10 @@
 [
   {
+    "repo": "gitgrounded",
+    "commits": 73,
+    "private": false
+  },
+  {
     "repo": "modeldiffr",
     "commits": 4,
     "private": false
@@ -23,10 +28,5 @@
     "repo": "fitness-frontend",
     "commits": 2,
     "private": true
-  },
-  {
-    "repo": "anacodic-agentic-cookbook",
-    "commits": 1,
-    "private": false
   }
 ]
