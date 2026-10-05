@@ -5,6 +5,16 @@
     "private": false
   },
   {
+    "repo": "fitness-backend",
+    "commits": 4,
+    "private": true
+  },
+  {
+    "repo": "fitness-frontend",
+    "commits": 4,
+    "private": true
+  },
+  {
     "repo": "modeldiffr",
     "commits": 4,
     "private": false
@@ -18,15 +28,5 @@
     "repo": "bitnarrow",
     "commits": 2,
     "private": false
-  },
-  {
-    "repo": "fitness-backend",
-    "commits": 2,
-    "private": true
-  },
-  {
-    "repo": "fitness-frontend",
-    "commits": 2,
-    "private": true
   }
 ]
