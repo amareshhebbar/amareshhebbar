@@ -5,6 +5,11 @@
     "private": false
   },
   {
+    "repo": "amareshhebbar",
+    "commits": 4,
+    "private": false
+  },
+  {
     "repo": "fitness-backend",
     "commits": 4,
     "private": true
@@ -17,11 +22,6 @@
   {
     "repo": "modeldiffr",
     "commits": 4,
-    "private": false
-  },
-  {
-    "repo": "amareshhebbar",
-    "commits": 3,
     "private": false
   },
   {
