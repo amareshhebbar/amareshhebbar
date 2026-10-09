@@ -219,6 +219,10 @@
     "2026-10-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "AllBlue": {
@@ -1993,6 +1997,10 @@
       "uniques": 0
     },
     "2026-10-07": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-08": {
       "count": 0,
       "uniques": 0
     }
@@ -4187,6 +4195,10 @@
     "2026-10-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-08": {
+      "count": 1,
+      "uniques": 1
     }
   },
   "ShiftLeft": {
@@ -5721,6 +5733,10 @@
     "2026-10-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "anacodic-agentic-cookbook": {
@@ -6097,6 +6113,10 @@
     "2026-10-07": {
       "count": 2,
       "uniques": 2
+    },
+    "2026-10-08": {
+      "count": 0,
+      "uniques": 0
     }
   }
 }
