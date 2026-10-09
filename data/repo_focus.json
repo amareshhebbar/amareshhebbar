@@ -1,5 +1,10 @@
 [
   {
+    "repo": "rungated",
+    "commits": 190,
+    "private": true
+  },
+  {
     "repo": "gitgrounded",
     "commits": 73,
     "private": false
@@ -22,11 +27,6 @@
   {
     "repo": "modeldiffr",
     "commits": 4,
-    "private": false
-  },
-  {
-    "repo": "bitnarrow",
-    "commits": 2,
     "private": false
   }
 ]
