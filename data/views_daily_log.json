@@ -445,6 +445,10 @@
     "2026-10-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "amareshhebbar": {
@@ -665,6 +669,10 @@
       "uniques": 0
     },
     "2026-10-07": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-08": {
       "count": 0,
       "uniques": 0
     }
@@ -889,6 +897,10 @@
     "2026-10-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "AxisMapper": {
@@ -1109,6 +1121,10 @@
       "uniques": 0
     },
     "2026-10-07": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-08": {
       "count": 0,
       "uniques": 0
     }
@@ -1333,6 +1349,10 @@
     "2026-10-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-08": {
+      "count": 1,
+      "uniques": 1
     }
   },
   "hiresignal": {
@@ -1555,6 +1575,10 @@
     "2026-10-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "LogPoseSIFT": {
@@ -1775,6 +1799,10 @@
       "uniques": 2
     },
     "2026-10-07": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-08": {
       "count": 0,
       "uniques": 0
     }
@@ -2225,6 +2253,10 @@
     "2026-10-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "oceanai_website": {
@@ -2445,6 +2477,10 @@
       "uniques": 0
     },
     "2026-10-07": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-08": {
       "count": 0,
       "uniques": 0
     }
@@ -2669,6 +2705,10 @@
     "2026-10-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "pLLM": {
@@ -2889,6 +2929,10 @@
       "uniques": 0
     },
     "2026-10-07": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-08": {
       "count": 0,
       "uniques": 0
     }
@@ -3113,6 +3157,10 @@
     "2026-10-07": {
       "count": 1,
       "uniques": 1
+    },
+    "2026-10-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "PocketLLM-backend": {
@@ -3333,6 +3381,10 @@
       "uniques": 0
     },
     "2026-10-07": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-08": {
       "count": 0,
       "uniques": 0
     }
@@ -3557,6 +3609,10 @@
     "2026-10-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "Radeon-hackathon-2026-07": {
@@ -3777,6 +3833,10 @@
       "uniques": 0
     },
     "2026-10-07": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-08": {
       "count": 0,
       "uniques": 0
     }
@@ -4421,6 +4481,10 @@
     "2026-10-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "sidepanel": {
@@ -4633,6 +4697,10 @@
       "uniques": 0
     },
     "2026-10-07": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-08": {
       "count": 0,
       "uniques": 0
     }
@@ -4857,6 +4925,10 @@
     "2026-10-07": {
       "count": 1,
       "uniques": 1
+    },
+    "2026-10-08": {
+      "count": 2,
+      "uniques": 2
     }
   },
   "truenorth-framework.github.io": {
@@ -5077,6 +5149,10 @@
       "uniques": 0
     },
     "2026-10-07": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-08": {
       "count": 0,
       "uniques": 0
     }
@@ -5301,6 +5377,10 @@
     "2026-10-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "unsloth-zoo": {
@@ -5521,6 +5601,10 @@
       "uniques": 0
     },
     "2026-10-07": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-08": {
       "count": 0,
       "uniques": 0
     }
@@ -5843,6 +5927,10 @@
     "2026-10-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "gitgrounded": {
@@ -5945,6 +6033,10 @@
     "2026-10-07": {
       "count": 2,
       "uniques": 1
+    },
+    "2026-10-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "modeldiffr": {
@@ -6027,6 +6119,10 @@
     "2026-10-07": {
       "count": 1,
       "uniques": 1
+    },
+    "2026-10-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "issueLoop": {
