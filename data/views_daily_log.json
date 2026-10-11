@@ -227,6 +227,10 @@
     "2026-10-09": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-10": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "AllBlue": {
@@ -457,6 +461,10 @@
     "2026-10-09": {
       "count": 1,
       "uniques": 1
+    },
+    "2026-10-10": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "amareshhebbar": {
@@ -687,6 +695,10 @@
     "2026-10-09": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-10": {
+      "count": 2,
+      "uniques": 1
     }
   },
   "AtomicRAG": {
@@ -915,6 +927,10 @@
       "uniques": 0
     },
     "2026-10-09": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-10": {
       "count": 0,
       "uniques": 0
     }
@@ -1147,6 +1163,10 @@
     "2026-10-09": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-10": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "hatpet": {
@@ -1375,6 +1395,10 @@
       "uniques": 1
     },
     "2026-10-09": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-10": {
       "count": 0,
       "uniques": 0
     }
@@ -1841,6 +1865,10 @@
     "2026-10-09": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-10": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "mdflow": {
@@ -2069,6 +2097,10 @@
       "uniques": 0
     },
     "2026-10-09": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-10": {
       "count": 0,
       "uniques": 0
     }
@@ -2301,6 +2333,10 @@
     "2026-10-09": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-10": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "oceanai_website": {
@@ -2529,6 +2565,10 @@
       "uniques": 0
     },
     "2026-10-09": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-10": {
       "count": 0,
       "uniques": 0
     }
@@ -2991,6 +3031,10 @@
     "2026-10-09": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-10": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "PocketLLM": {
@@ -3221,6 +3265,10 @@
     "2026-10-09": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-10": {
+      "count": 7,
+      "uniques": 2
     }
   },
   "PocketLLM-backend": {
@@ -3449,6 +3497,10 @@
       "uniques": 0
     },
     "2026-10-09": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-10": {
       "count": 0,
       "uniques": 0
     }
@@ -4335,6 +4387,10 @@
     "2026-10-09": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-10": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "ShiftLeft": {
@@ -4565,6 +4621,10 @@
     "2026-10-09": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-10": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "sidepanel": {
@@ -4787,6 +4847,10 @@
     "2026-10-09": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-10": {
+      "count": 1,
+      "uniques": 1
     }
   },
   "TrueNorth": {
@@ -5017,6 +5081,10 @@
     "2026-10-09": {
       "count": 8,
       "uniques": 3
+    },
+    "2026-10-10": {
+      "count": 1,
+      "uniques": 1
     }
   },
   "truenorth-framework.github.io": {
@@ -5477,6 +5545,10 @@
     "2026-10-09": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-10": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "unsloth-zoo": {
@@ -5707,6 +5779,10 @@
     "2026-10-09": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-10": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "bitnarrow": {
@@ -5925,6 +6001,10 @@
     "2026-10-09": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-10": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "anacodic-agentic-cookbook": {
@@ -6039,6 +6119,10 @@
     "2026-10-09": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-10": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "gitgrounded": {
@@ -6149,6 +6233,10 @@
     "2026-10-09": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-10": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "modeldiffr": {
@@ -6239,6 +6327,10 @@
     "2026-10-09": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-10": {
+      "count": 2,
+      "uniques": 1
     }
   },
   "issueLoop": {
@@ -6331,6 +6423,10 @@
       "uniques": 0
     },
     "2026-10-09": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-10": {
       "count": 0,
       "uniques": 0
     }
