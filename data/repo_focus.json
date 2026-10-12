@@ -10,6 +10,11 @@
     "private": false
   },
   {
+    "repo": "northwind",
+    "commits": 52,
+    "private": false
+  },
+  {
     "repo": "amareshhebbar",
     "commits": 4,
     "private": false
@@ -23,10 +28,5 @@
     "repo": "fitness-frontend",
     "commits": 4,
     "private": true
-  },
-  {
-    "repo": "modeldiffr",
-    "commits": 4,
-    "private": false
   }
 ]
