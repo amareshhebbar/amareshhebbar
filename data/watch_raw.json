@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-11T22:14:42.748625+00:00",
+  "timestamp": "2026-10-12T05:32:17.087518+00:00",
   "repos": {
     "AgentKit": {
       "watchers": [],
@@ -619,14 +619,9 @@
     },
     "hatpet": {
       "watchers": [],
-      "views_count_total": 2,
-      "views_uniques_total": 2,
+      "views_count_total": 1,
+      "views_uniques_total": 1,
       "views_daily": [
-        {
-          "timestamp": "2026-09-27T00:00:00Z",
-          "count": 1,
-          "uniques": 1
-        },
         {
           "timestamp": "2026-09-28T00:00:00Z",
           "count": 0,
@@ -689,6 +684,11 @@
         },
         {
           "timestamp": "2026-10-10T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-11T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -2009,16 +2009,6 @@
       "views_uniques_total": 0,
       "views_daily": [
         {
-          "timestamp": "2026-09-26T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
-          "timestamp": "2026-09-27T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-09-28T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -2075,6 +2065,16 @@
         },
         {
           "timestamp": "2026-10-09T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-10T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-11T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
