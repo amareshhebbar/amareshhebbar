@@ -15,18 +15,18 @@
     "private": false
   },
   {
-    "repo": "modeldiffr",
-    "commits": 6,
-    "private": false
-  },
-  {
-    "repo": "fitness-backend",
-    "commits": 5,
+    "repo": "fitness-frontend",
+    "commits": 8,
     "private": true
   },
   {
-    "repo": "amareshhebbar",
-    "commits": 4,
+    "repo": "fitness-backend",
+    "commits": 6,
+    "private": true
+  },
+  {
+    "repo": "modeldiffr",
+    "commits": 6,
     "private": false
   }
 ]
