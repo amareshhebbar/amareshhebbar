@@ -1,7 +1,7 @@
 [
   {
     "repo": "rungated",
-    "commits": 241,
+    "commits": 278,
     "private": true
   },
   {
@@ -10,23 +10,23 @@
     "private": false
   },
   {
+    "repo": "rungated-detector",
+    "commits": 78,
+    "private": true
+  },
+  {
     "repo": "northwind",
     "commits": 52,
     "private": false
   },
   {
     "repo": "fitness-frontend",
-    "commits": 8,
+    "commits": 9,
     "private": true
   },
   {
     "repo": "fitness-backend",
-    "commits": 6,
+    "commits": 7,
     "private": true
-  },
-  {
-    "repo": "modeldiffr",
-    "commits": 6,
-    "private": false
   }
 ]
