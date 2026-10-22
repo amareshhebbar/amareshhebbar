@@ -5,6 +5,11 @@
     "private": true
   },
   {
+    "repo": "modeldiffr",
+    "commits": 159,
+    "private": false
+  },
+  {
     "repo": "gitgrounded",
     "commits": 104,
     "private": false
@@ -17,11 +22,6 @@
   {
     "repo": "northwind",
     "commits": 52,
-    "private": false
-  },
-  {
-    "repo": "modeldiffr",
-    "commits": 26,
     "private": false
   },
   {
