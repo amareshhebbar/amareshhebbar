@@ -6,7 +6,7 @@
   },
   {
     "repo": "gitgrounded",
-    "commits": 96,
+    "commits": 104,
     "private": false
   },
   {
@@ -20,13 +20,13 @@
     "private": false
   },
   {
-    "repo": "fitness-frontend",
-    "commits": 9,
-    "private": true
+    "repo": "modeldiffr",
+    "commits": 26,
+    "private": false
   },
   {
-    "repo": "fitness-backend",
-    "commits": 7,
+    "repo": "fitness-frontend",
+    "commits": 11,
     "private": true
   }
 ]
