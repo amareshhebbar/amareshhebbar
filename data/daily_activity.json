@@ -1,12 +1,12 @@
 {
   "today": {
     "date": "2026-10-24",
-    "commits": 0,
-    "prs": 0
+    "commits": 4,
+    "prs": 2
   },
   "yesterday": {
     "date": "2026-10-23",
-    "commits": 15,
-    "prs": 8
+    "commits": 19,
+    "prs": 10
   }
 }
