@@ -283,6 +283,10 @@
     "2026-10-23": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-24": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "AllBlue": {
@@ -567,6 +571,10 @@
       "uniques": 0
     },
     "2026-10-23": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-24": {
       "count": 0,
       "uniques": 0
     }
@@ -855,6 +863,10 @@
     "2026-10-23": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-24": {
+      "count": 3,
+      "uniques": 2
     }
   },
   "AtomicRAG": {
@@ -1139,6 +1151,10 @@
       "uniques": 0
     },
     "2026-10-23": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-24": {
       "count": 0,
       "uniques": 0
     }
@@ -1427,6 +1443,10 @@
     "2026-10-23": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-24": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "hatpet": {
@@ -1713,6 +1733,10 @@
     "2026-10-23": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-24": {
+      "count": 1,
+      "uniques": 1
     }
   },
   "hiresignal": {
@@ -1997,6 +2021,10 @@
       "uniques": 0
     },
     "2026-10-23": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-24": {
       "count": 0,
       "uniques": 0
     }
@@ -2285,6 +2313,10 @@
     "2026-10-23": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-24": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "mdflow": {
@@ -2569,6 +2601,10 @@
       "uniques": 0
     },
     "2026-10-23": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-24": {
       "count": 0,
       "uniques": 0
     }
@@ -2857,6 +2893,10 @@
     "2026-10-23": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-24": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "oceanai_website": {
@@ -3141,6 +3181,10 @@
       "uniques": 0
     },
     "2026-10-23": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-24": {
       "count": 0,
       "uniques": 0
     }
@@ -3429,6 +3473,10 @@
     "2026-10-23": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-24": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "pLLM": {
@@ -3713,6 +3761,10 @@
       "uniques": 0
     },
     "2026-10-23": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-24": {
       "count": 0,
       "uniques": 0
     }
@@ -4001,6 +4053,10 @@
     "2026-10-23": {
       "count": 1,
       "uniques": 1
+    },
+    "2026-10-24": {
+      "count": 1,
+      "uniques": 1
     }
   },
   "PocketLLM-backend": {
@@ -4285,6 +4341,10 @@
       "uniques": 0
     },
     "2026-10-23": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-24": {
       "count": 0,
       "uniques": 0
     }
@@ -4573,6 +4633,10 @@
     "2026-10-23": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-24": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "Radeon-hackathon-2026-07": {
@@ -4857,6 +4921,10 @@
       "uniques": 0
     },
     "2026-10-23": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-24": {
       "count": 0,
       "uniques": 0
     }
@@ -5339,6 +5407,10 @@
     "2026-10-23": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-24": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "ShiftLeft": {
@@ -5625,6 +5697,10 @@
     "2026-10-23": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-24": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "sidepanel": {
@@ -5901,6 +5977,10 @@
       "uniques": 0
     },
     "2026-10-23": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-24": {
       "count": 0,
       "uniques": 0
     }
@@ -6189,6 +6269,10 @@
     "2026-10-23": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-24": {
+      "count": 2,
+      "uniques": 1
     }
   },
   "truenorth-framework.github.io": {
@@ -6473,6 +6557,10 @@
       "uniques": 0
     },
     "2026-10-23": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-24": {
       "count": 0,
       "uniques": 0
     }
@@ -6761,6 +6849,10 @@
     "2026-10-23": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-24": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "unsloth-zoo": {
@@ -7047,6 +7139,10 @@
     "2026-10-23": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-24": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "bitnarrow": {
@@ -7321,6 +7417,10 @@
     "2026-10-23": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-24": {
+      "count": 2,
+      "uniques": 2
     }
   },
   "anacodic-agentic-cookbook": {
@@ -7491,6 +7591,10 @@
     "2026-10-23": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-24": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "gitgrounded": {
@@ -7657,6 +7761,10 @@
     "2026-10-23": {
       "count": 2,
       "uniques": 1
+    },
+    "2026-10-24": {
+      "count": 12,
+      "uniques": 1
     }
   },
   "modeldiffr": {
@@ -7803,6 +7911,10 @@
     "2026-10-23": {
       "count": 23,
       "uniques": 1
+    },
+    "2026-10-24": {
+      "count": 2,
+      "uniques": 2
     }
   },
   "issueLoop": {
@@ -7953,6 +8065,10 @@
     "2026-10-23": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-24": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "northwind": {
@@ -8055,6 +8171,10 @@
     "2026-10-23": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-24": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "Plyscope": {
@@ -8111,8 +8231,8 @@
       "uniques": 0
     },
     "2026-10-24": {
-      "count": 0,
-      "uniques": 0
+      "count": 9,
+      "uniques": 1
     },
     "2026-10-25": {
       "count": 0,
