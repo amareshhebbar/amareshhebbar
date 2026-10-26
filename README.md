@@ -140,6 +140,31 @@ Fine tuned models live on **[Hugging Face](https://huggingface.co/AmareshHebbar)
 
 <hr>
 
+<hr>
+
+### Weight Lab: Training, Fine Tuning and Model Surgery
+
+Every project below takes an existing open model and changes it after pretraining: fine tuning, preference alignment, distillation, weight surgery, or turning a decoder into an embedder. Each one ships trained weights or a full reproducible pipeline, measured against its starting model.
+
+<b>33 models · 29 datasets · 3 live Spaces on <a href="https://huggingface.co/AmareshHebbar">Hugging Face</a></b>
+
+| Project | Type | Base models | Method | Released | Headline |
+|---------|------|-------------|--------|----------|----------|
+| **[Vec16](https://github.com/amareshhebbar/Vec16)** | Embeddings · Distillation | SmolLM2 135M and 360M · Gemma 3 270M · Qwen2.5 0.5B · Qwen3 0.6B and 1.7B | Causal to bidirectional attention · masked next token training · listwise distillation from Qwen3 Embedding 8B and GTE ModernColBERT · Matryoshka · binary aware training | GitHub pipeline · Colab and RunPod profiles · ONNX, vLLM and browser serving | 16 bytes per document, 256x smaller than float32 at 1024 dims · GOOD or BAD verdict gate before publish |
+| **[FlipAware](https://github.com/amareshhebbar/FlipAware)** | Embeddings · Contrastive fine tuning | MiniLM · BGE · E5 · ModernBERT · EmbeddingGemma · Qwen3 Embedding | Qwen3 generated trap triples · NLI filtering · minimal edit hard negatives · Matryoshka · LoRA | GitHub pipeline · drop in replacements for 6 embedder families | Catches 8 meaning flip traps (negation, numbers, role swap, time order, quantifiers, hedges, entity swap, scope) while holding NanoBEIR retrieval |
+| **[BitNarrow Abliteration Weights](https://huggingface.co/collections/AmareshHebbar/abliteration-weights)** | Weight surgery · Zero training | [Qwen2.5 1.5B](https://huggingface.co/AmareshHebbar/Qwen2.5-1.5B-Abliterated) · [Qwen2.5 1.5B Instruct](https://huggingface.co/AmareshHebbar/Qwen2.5-1.5B-Instruct-Abliterated) · [Qwen2.5 7B Instruct](https://huggingface.co/AmareshHebbar/Qwen2.5-7B-Instruct-Abliterated) · [Llama 3.2 3B Instruct](https://huggingface.co/AmareshHebbar/Llama-3.2-3B-Instruct-Abliterated) · [Llama 3.1 8B Instruct](https://huggingface.co/AmareshHebbar/Llama-3.1-8B-Instruct-Abliterated) · [Gemma 2 2B IT](https://huggingface.co/AmareshHebbar/gemma-2-2b-it-Abliterated) · [Phi 3.5 mini Instruct](https://huggingface.co/AmareshHebbar/Phi-3.5-mini-instruct-Abliterated) | Winsorized activation profiling · Gram Schmidt orthogonal projection across o, gate, up, down · produced by [BitNarrow](https://github.com/amareshhebbar/bitnarrow) | 7 models across 4 families | 0% refusal with 100% logic retention · 386MB hot swap patch · audited with [Modeldiffr](https://huggingface.co/AmareshHebbar/modeldiffr_audits) |
+| **[AtomicRAG](https://github.com/amareshhebbar/AtomicRAG)** | Fine tuning · Query decomposition | Qwen2.5 1.5B | QLoRA SFT → DoRA refinement → ORPO on 5 failure types · 42K SFT examples and 71K ORPO pairs from MuSiQue, HotpotQA, 2WikiMultihopQA | GitHub pipeline and benchmarks | Hop count accuracy 43% → 84% · BM25 hit@3 31% → 67% · about 50ms p50 vs 1800ms for prompted GPT 4o |
+| **[LeetCode Coder Suite](https://huggingface.co/collections/AmareshHebbar/leetcode-multi-language-coder-suite)** | Fine tuning · Code generation | Qwen2.5 Coder 7B | QDoRA · 4 language specialists ([Python](https://huggingface.co/AmareshHebbar/leetcode-python-qwen25-coder-7b) · [Java](https://huggingface.co/AmareshHebbar/leetcode-java-qwen25-coder-7b) · [C++](https://huggingface.co/AmareshHebbar/leetcode-cpp-qwen25-coder-7b) · [JavaScript](https://huggingface.co/AmareshHebbar/leetcode-javascript-qwen25-coder-7b)) | 4 models + 4 GGUF builds + [live demo](https://huggingface.co/spaces/AmareshHebbar/leetcode-coder-demo) | Problem statement + algorithm tag → solution · trained on execution verified data |
+| **[Medical AI Suite](https://huggingface.co/collections/AmareshHebbar/medical-ai-fine-tuned-model-suite)** | Fine tuning · Preference alignment | Qwen2.5 Instruct 1.5B, 3B, 7B | QLoRA → DoRA → ORPO → merge · Unsloth + TRL on A40 | 13 task models + merged 8B build + [live demo](https://huggingface.co/spaces/AmareshHebbar/icd10-coder-demo) | ICD 10, CPT, DRG, SNOMED, NER, PM JAY, Hindi medical · full table [below](#hugging-face-medical-ai-fine-tuned-model-suite) |
+
+#### Open Training Datasets
+
+| Collection | Datasets | Rows | What it is |
+|-----------|:--------:|------|------------|
+| **[AxisMapper Medical AI Suite](https://huggingface.co/collections/AmareshHebbar/axismapper-medical-ai-suite)** | 16 | about 470K | Paired SFT data built from CMS FY2026 ICD 10 CM, HCPCS Stark Law DHS and other authoritative sources, including [symptom diagnoser](https://huggingface.co/datasets/AmareshHebbar/symptom-diagnoser-sft) (119K) and [LOINC coder](https://huggingface.co/datasets/AmareshHebbar/loinc-coder-sft) |
+| **[LeetCode Code Gen Datasets](https://huggingface.co/collections/AmareshHebbar/leetcode-code-gen-datasets)** | 4 | about 11.2K | Problem + examples + algorithm → solution in Python, Java, C++ and JavaScript, every solution execution verified |
+| **[Astrology and Divination SFT](https://huggingface.co/collections/AmareshHebbar/astrology-and-divination-sft-datasets)** | 9 | about 1.8M | Deterministic, rule matched, citation tagged SFT across Vedic ([1M rows](https://huggingface.co/datasets/AmareshHebbar/jyotish-llm-sft)), Western, KP, Prashna, BaZi, Chinese Zodiac, Nine Star Ki and two numerology systems |
+
 ### Open Source Contributions
 
 | Repository | Contribution | Impact |
