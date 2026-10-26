@@ -140,7 +140,6 @@ Fine tuned models live on **[Hugging Face](https://huggingface.co/AmareshHebbar)
 
 <hr>
 
-<hr>
 
 ### Model Training: Fine Tuning, Embeddings, Vision and Model Surgery
 
