@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>Founding AI Engineer @ <a href="https://www.linkedin.com/company/impossible-ai/">Impossible AI</a> · Applied AI Engineer @ <a href="https://anacodicai.org/get-started">AnacodicAI Labs</a></b><br>
-  <b>Agentic LLM Systems · Model Auditing · Post Training & Alignment · Multi Agent Infrastructure · Medical AI</b><br>
+    <b>Agentic LLM Systems · Model Auditing · Post Training & Alignment · Embedding Models · Multi Agent Infrastructure · Medical AI</b><br>
   I design, fine tune, audit, and ship production grade AI systems end to end.
 </p>
 
@@ -142,7 +142,7 @@ Fine tuned models live on **[Hugging Face](https://huggingface.co/AmareshHebbar)
 
 <hr>
 
-### Weight Lab: Training, Fine Tuning and Model Surgery
+### Model Training: Fine Tuning, Embeddings, Vision and Model Surgery
 
 Every project below takes an existing open model and changes it after pretraining: fine tuning, preference alignment, distillation, weight surgery, or turning a decoder into an embedder. Each one ships trained weights or a full reproducible pipeline, measured against its starting model.
 
