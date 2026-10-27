@@ -20,15 +20,28 @@ def load_json(path, default):
     return json.loads(content)
 
 
-def today_key(iso_timestamp):
-    return iso_timestamp[:10]
-
-
-def find_today_entry(views_daily, today):
+def merge_repo_days(repo_log, views_daily):
+    new_days = {}
+    delta_count = 0
+    delta_uniques = 0
     for entry in views_daily:
-        if entry.get("timestamp", "")[:10] == today:
-            return entry
-    return None
+        date = entry.get("timestamp", "")[:10]
+        if not date:
+            continue
+        count = entry.get("count", 0)
+        uniques = entry.get("uniques", 0)
+        old = repo_log.get(date, {"count": 0, "uniques": 0})
+        dc = max(count - old["count"], 0)
+        du = max(uniques - old["uniques"], 0)
+        if dc or du:
+            new_days[date] = {"count": dc, "uniques": du}
+            delta_count += dc
+            delta_uniques += du
+        repo_log[date] = {
+            "count": max(count, old["count"]),
+            "uniques": max(uniques, old["uniques"])
+        }
+    return new_days, delta_count, delta_uniques
 
 
 def main():
@@ -39,10 +52,10 @@ def main():
     prev_watchers_state = load_json(STATE_PATH, {})
     history = load_json(HISTORY_PATH, [])
     daily_log = load_json(DAILY_LOG_PATH, {})
-    last_entry = history[-1] if history else None
 
     now = datetime.now(timezone.utc)
     today = now.strftime("%Y-%m-%d")
+    yesterday = (now - timedelta(days=1)).strftime("%Y-%m-%d")
 
     entry_repos = {}
     totals = {
@@ -50,6 +63,8 @@ def main():
         "watchers_new": 0,
         "views_today_count": 0,
         "views_today_uniques": 0,
+        "views_yesterday_count": 0,
+        "views_yesterday_uniques": 0,
         "views_delta_count": 0,
         "views_delta_uniques": 0,
         "views_total_14d": 0,
@@ -64,61 +79,50 @@ def main():
         new_watchers = sorted(current_watchers - previous_watchers)
         new_watchers_state[repo] = sorted(current_watchers)
 
-        today_entry = find_today_entry(data["views_daily"], today)
-        views_today_count = today_entry["count"] if today_entry else 0
-        views_today_uniques = today_entry["uniques"] if today_entry else 0
-
-        prev_repo_entry = None
-        if last_entry and today_key(last_entry["timestamp"]) == today:
-            prev_repo_entry = last_entry["repos"].get(repo)
-
-        if prev_repo_entry:
-            views_delta_count = max(views_today_count - prev_repo_entry["views_today_count"], 0)
-            views_delta_uniques = max(views_today_uniques - prev_repo_entry["views_today_uniques"], 0)
+        repo_log = daily_log.setdefault(repo, {})
+        if data.get("traffic_ok", True):
+            new_days, delta_count, delta_uniques = merge_repo_days(repo_log, data["views_daily"])
         else:
-            views_delta_count = views_today_count
-            views_delta_uniques = views_today_uniques
+            new_days, delta_count, delta_uniques = {}, 0, 0
+
+        today_vals = repo_log.get(today, {"count": 0, "uniques": 0})
+        yesterday_vals = repo_log.get(yesterday, {"count": 0, "uniques": 0})
 
         entry_repos[repo] = {
             "watchers_total": len(current_watchers),
             "watchers_new": new_watchers,
-            "views_today_count": views_today_count,
-            "views_today_uniques": views_today_uniques,
-            "views_delta_count": views_delta_count,
-            "views_delta_uniques": views_delta_uniques,
+            "views_today_count": today_vals["count"],
+            "views_today_uniques": today_vals["uniques"],
+            "views_yesterday_count": yesterday_vals["count"],
+            "views_yesterday_uniques": yesterday_vals["uniques"],
+            "views_delta_count": delta_count,
+            "views_delta_uniques": delta_uniques,
+            "views_new_days": new_days,
             "views_total_14d": data["views_count_total"],
-            "views_uniques_14d": data["views_uniques_total"]
+            "views_uniques_14d": data["views_uniques_total"],
+            "traffic_ok": data.get("traffic_ok", True)
         }
 
         totals["watchers_total"] += len(current_watchers)
         totals["watchers_new"] += len(new_watchers)
-        totals["views_today_count"] += views_today_count
-        totals["views_today_uniques"] += views_today_uniques
-        totals["views_delta_count"] += views_delta_count
-        totals["views_delta_uniques"] += views_delta_uniques
+        totals["views_today_count"] += today_vals["count"]
+        totals["views_today_uniques"] += today_vals["uniques"]
+        totals["views_yesterday_count"] += yesterday_vals["count"]
+        totals["views_yesterday_uniques"] += yesterday_vals["uniques"]
+        totals["views_delta_count"] += delta_count
+        totals["views_delta_uniques"] += delta_uniques
         totals["views_total_14d"] += data["views_count_total"]
         totals["views_uniques_14d"] += data["views_uniques_total"]
 
-        repo_log = daily_log.setdefault(repo, {})
-        for date_entry in data["views_daily"]:
-            date = date_entry.get("timestamp", "")[:10]
-            if date:
-                repo_log[date] = {
-                    "count": date_entry.get("count", 0),
-                    "uniques": date_entry.get("uniques", 0)
-                }
-
     cutoff_date = (now - timedelta(days=DAILY_LOG_RETENTION_DAYS)).strftime("%Y-%m-%d")
     for repo in daily_log:
-        daily_log[repo] = {d: v for d, v in daily_log[repo].items() if d >= cutoff_date}
+        daily_log[repo] = {d: v for d, v in sorted(daily_log[repo].items()) if d >= cutoff_date}
 
-    new_entry = {
+    history.append({
         "timestamp": raw["timestamp"],
         "repos": entry_repos,
         "totals": totals
-    }
-
-    history.append(new_entry)
+    })
     history = history[-MAX_HISTORY_ENTRIES:]
 
     os.makedirs(os.path.dirname(HISTORY_PATH), exist_ok=True)
@@ -128,6 +132,8 @@ def main():
         json.dump(new_watchers_state, f, indent=2)
     with open(DAILY_LOG_PATH, "w") as f:
         json.dump(daily_log, f, indent=2)
+
+    print(f"new views since last run: {totals['views_delta_count']} ({totals['views_delta_uniques']} unique)")
 
 
 if __name__ == "__main__":

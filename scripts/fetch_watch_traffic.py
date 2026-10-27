@@ -59,11 +59,20 @@ def fetch_subscribers(token, owner, repo, exclude_login):
 
 def fetch_traffic_views(token, owner, repo):
     headers = gh_headers(token)
-    resp = requests.get(f"{API_ROOT}/repos/{owner}/{repo}/traffic/views", headers=headers)
+    resp = None
+    for attempt in range(3):
+        resp = requests.get(f"{API_ROOT}/repos/{owner}/{repo}/traffic/views", headers=headers)
+        if resp.status_code == 200:
+            break
+        if resp.status_code < 500:
+            break
+        time.sleep(2 * (attempt + 1))
     if resp.status_code != 200:
-        return {"count": 0, "uniques": 0, "views": []}
+        print(f"{repo}: traffic fetch failed with {resp.status_code}")
+        return {"ok": False, "count": 0, "uniques": 0, "views": []}
     data = resp.json()
     return {
+        "ok": True,
         "count": data.get("count", 0),
         "uniques": data.get("uniques", 0),
         "views": data.get("views", [])
@@ -85,6 +94,7 @@ def main():
         traffic = fetch_traffic_views(token, owner, name)
         snapshot["repos"][name] = {
             "watchers": watchers,
+            "traffic_ok": traffic["ok"],
             "views_count_total": traffic["count"],
             "views_uniques_total": traffic["uniques"],
             "views_daily": traffic["views"]
