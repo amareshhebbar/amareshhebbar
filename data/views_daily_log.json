@@ -597,6 +597,10 @@
     "2026-10-26": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-27": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "amareshhebbar": {
@@ -893,6 +897,10 @@
       "uniques": 0
     },
     "2026-10-26": {
+      "count": 6,
+      "uniques": 1
+    },
+    "2026-10-27": {
       "count": 6,
       "uniques": 1
     }
@@ -1193,6 +1201,10 @@
     "2026-10-26": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-27": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "AxisMapper": {
@@ -1489,6 +1501,10 @@
       "uniques": 0
     },
     "2026-10-26": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-27": {
       "count": 0,
       "uniques": 0
     }
@@ -1789,6 +1805,10 @@
     "2026-10-26": {
       "count": 4,
       "uniques": 1
+    },
+    "2026-10-27": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "hiresignal": {
@@ -2087,6 +2107,10 @@
     "2026-10-26": {
       "count": 1,
       "uniques": 1
+    },
+    "2026-10-27": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "LogPoseSIFT": {
@@ -2385,6 +2409,10 @@
     "2026-10-26": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-27": {
+      "count": 2,
+      "uniques": 2
     }
   },
   "mdflow": {
@@ -2681,6 +2709,10 @@
       "uniques": 0
     },
     "2026-10-26": {
+      "count": 1,
+      "uniques": 1
+    },
+    "2026-10-27": {
       "count": 1,
       "uniques": 1
     }
@@ -2981,6 +3013,10 @@
     "2026-10-26": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-27": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "oceanai_website": {
@@ -3269,6 +3305,18 @@
       "uniques": 0
     },
     "2026-10-24": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-25": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-26": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-27": {
       "count": 0,
       "uniques": 0
     }
@@ -3569,6 +3617,10 @@
     "2026-10-26": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-27": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "pLLM": {
@@ -3865,6 +3917,10 @@
       "uniques": 0
     },
     "2026-10-26": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-27": {
       "count": 0,
       "uniques": 0
     }
@@ -4165,6 +4221,10 @@
     "2026-10-26": {
       "count": 1,
       "uniques": 1
+    },
+    "2026-10-27": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "PocketLLM-backend": {
@@ -4463,6 +4523,10 @@
     "2026-10-26": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-27": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "PocketLLM-expoFrontend": {
@@ -4759,6 +4823,10 @@
       "uniques": 0
     },
     "2026-10-26": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-27": {
       "count": 0,
       "uniques": 0
     }
@@ -5555,6 +5623,10 @@
     "2026-10-26": {
       "count": 2,
       "uniques": 2
+    },
+    "2026-10-27": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "ShiftLeft": {
@@ -5853,6 +5925,10 @@
     "2026-10-26": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-27": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "sidepanel": {
@@ -6141,6 +6217,10 @@
       "uniques": 0
     },
     "2026-10-26": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-27": {
       "count": 0,
       "uniques": 0
     }
@@ -6441,6 +6521,10 @@
     "2026-10-26": {
       "count": 2,
       "uniques": 1
+    },
+    "2026-10-27": {
+      "count": 3,
+      "uniques": 2
     }
   },
   "truenorth-framework.github.io": {
@@ -6733,6 +6817,14 @@
       "uniques": 0
     },
     "2026-10-25": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-26": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-27": {
       "count": 0,
       "uniques": 0
     }
@@ -7033,6 +7125,10 @@
     "2026-10-26": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-27": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "unsloth-zoo": {
@@ -7331,6 +7427,10 @@
     "2026-10-26": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-27": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "bitnarrow": {
@@ -7617,6 +7717,10 @@
     "2026-10-26": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-27": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "anacodic-agentic-cookbook": {
@@ -7799,6 +7903,10 @@
     "2026-10-26": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-27": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "gitgrounded": {
@@ -7977,6 +8085,10 @@
     "2026-10-26": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-27": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "modeldiffr": {
@@ -8133,6 +8245,10 @@
       "uniques": 0
     },
     "2026-10-26": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-27": {
       "count": 0,
       "uniques": 0
     }
@@ -8297,6 +8413,10 @@
     "2026-10-26": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-27": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "northwind": {
@@ -8411,6 +8531,10 @@
     "2026-10-26": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-27": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "Plyscope": {
@@ -8477,6 +8601,10 @@
     "2026-10-26": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-27": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "FlipAware": {
@@ -8539,6 +8667,10 @@
     "2026-10-26": {
       "count": 4,
       "uniques": 1
+    },
+    "2026-10-27": {
+      "count": 15,
+      "uniques": 1
     }
   },
   "Vec16": {
@@ -8599,8 +8731,8 @@
       "uniques": 1
     },
     "2026-10-27": {
-      "count": 0,
-      "uniques": 0
+      "count": 1,
+      "uniques": 1
     }
   }
 }
