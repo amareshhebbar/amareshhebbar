@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-30T05:22:27.219483+00:00",
+  "timestamp": "2026-10-30T12:36:06.565339+00:00",
   "repos": {
     "AgentKit": {
       "watchers": [],
@@ -7,11 +7,6 @@
       "views_count_total": 0,
       "views_uniques_total": 0,
       "views_daily": [
-        {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
         {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
@@ -74,6 +69,11 @@
         },
         {
           "timestamp": "2026-10-28T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -86,11 +86,6 @@
       "views_uniques_total": 1,
       "views_daily": [
         {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 1,
-          "uniques": 1
-        },
-        {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -154,6 +149,11 @@
           "timestamp": "2026-10-28T00:00:00Z",
           "count": 0,
           "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
+          "count": 1,
+          "uniques": 1
         }
       ]
     },
@@ -163,11 +163,6 @@
       "views_count_total": 15,
       "views_uniques_total": 2,
       "views_daily": [
-        {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
         {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
@@ -232,6 +227,11 @@
           "timestamp": "2026-10-28T00:00:00Z",
           "count": 0,
           "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
+          "count": 0,
+          "uniques": 0
         }
       ]
     },
@@ -241,11 +241,6 @@
       "views_count_total": 0,
       "views_uniques_total": 0,
       "views_daily": [
-        {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
         {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
@@ -310,20 +305,20 @@
           "timestamp": "2026-10-28T00:00:00Z",
           "count": 0,
           "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
+          "count": 0,
+          "uniques": 0
         }
       ]
     },
     "AtomicRAG": {
       "watchers": [],
       "traffic_ok": true,
-      "views_count_total": 1,
-      "views_uniques_total": 1,
+      "views_count_total": 2,
+      "views_uniques_total": 2,
       "views_daily": [
-        {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
         {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
@@ -388,6 +383,11 @@
           "timestamp": "2026-10-28T00:00:00Z",
           "count": 0,
           "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
+          "count": 1,
+          "uniques": 1
         }
       ]
     },
@@ -397,11 +397,6 @@
       "views_count_total": 0,
       "views_uniques_total": 0,
       "views_daily": [
-        {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
         {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
@@ -466,20 +461,20 @@
           "timestamp": "2026-10-28T00:00:00Z",
           "count": 0,
           "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
+          "count": 0,
+          "uniques": 0
         }
       ]
     },
     "bitnarrow": {
       "watchers": [],
       "traffic_ok": true,
-      "views_count_total": 10,
+      "views_count_total": 11,
       "views_uniques_total": 3,
       "views_daily": [
-        {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
         {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
@@ -542,6 +537,11 @@
         },
         {
           "timestamp": "2026-10-28T00:00:00Z",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
           "count": 1,
           "uniques": 1
         }
@@ -632,11 +632,6 @@
       "views_uniques_total": 3,
       "views_daily": [
         {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 1,
           "uniques": 1
@@ -698,6 +693,11 @@
         },
         {
           "timestamp": "2026-10-28T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -784,14 +784,9 @@
     "hiresignal": {
       "watchers": [],
       "traffic_ok": true,
-      "views_count_total": 1,
-      "views_uniques_total": 1,
+      "views_count_total": 3,
+      "views_uniques_total": 3,
       "views_daily": [
-        {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
         {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
@@ -856,20 +851,20 @@
           "timestamp": "2026-10-28T00:00:00Z",
           "count": 0,
           "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
+          "count": 2,
+          "uniques": 2
         }
       ]
     },
     "issueLoop": {
       "watchers": [],
       "traffic_ok": true,
-      "views_count_total": 1,
-      "views_uniques_total": 1,
+      "views_count_total": 2,
+      "views_uniques_total": 2,
       "views_daily": [
-        {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 1,
-          "uniques": 1
-        },
         {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
@@ -934,20 +929,20 @@
           "timestamp": "2026-10-28T00:00:00Z",
           "count": 0,
           "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
+          "count": 2,
+          "uniques": 2
         }
       ]
     },
     "LogPoseSIFT": {
       "watchers": [],
       "traffic_ok": true,
-      "views_count_total": 3,
-      "views_uniques_total": 3,
+      "views_count_total": 4,
+      "views_uniques_total": 4,
       "views_daily": [
-        {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
         {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
@@ -1012,20 +1007,20 @@
           "timestamp": "2026-10-28T00:00:00Z",
           "count": 0,
           "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
+          "count": 1,
+          "uniques": 1
         }
       ]
     },
     "mdflow": {
       "watchers": [],
       "traffic_ok": true,
-      "views_count_total": 2,
-      "views_uniques_total": 2,
+      "views_count_total": 5,
+      "views_uniques_total": 5,
       "views_daily": [
-        {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
         {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
@@ -1090,6 +1085,11 @@
           "timestamp": "2026-10-28T00:00:00Z",
           "count": 0,
           "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
+          "count": 3,
+          "uniques": 3
         }
       ]
     },
@@ -1099,11 +1099,6 @@
       "views_count_total": 26,
       "views_uniques_total": 3,
       "views_daily": [
-        {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
         {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 1,
@@ -1168,6 +1163,11 @@
           "timestamp": "2026-10-28T00:00:00Z",
           "count": 0,
           "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
+          "count": 0,
+          "uniques": 0
         }
       ]
     },
@@ -1177,11 +1177,6 @@
       "views_count_total": 0,
       "views_uniques_total": 0,
       "views_daily": [
-        {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
         {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
@@ -1244,6 +1239,11 @@
         },
         {
           "timestamp": "2026-10-28T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -1334,11 +1334,6 @@
       "views_uniques_total": 0,
       "views_daily": [
         {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -1400,6 +1395,11 @@
         },
         {
           "timestamp": "2026-10-28T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -1412,11 +1412,6 @@
       "views_uniques_total": 0,
       "views_daily": [
         {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -1478,6 +1473,11 @@
         },
         {
           "timestamp": "2026-10-28T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -1490,11 +1490,6 @@
       "views_uniques_total": 0,
       "views_daily": [
         {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -1558,6 +1553,11 @@
           "timestamp": "2026-10-28T00:00:00Z",
           "count": 0,
           "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
+          "count": 0,
+          "uniques": 0
         }
       ]
     },
@@ -1567,11 +1567,6 @@
       "views_count_total": 9,
       "views_uniques_total": 1,
       "views_daily": [
-        {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
         {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
@@ -1636,20 +1631,20 @@
           "timestamp": "2026-10-28T00:00:00Z",
           "count": 0,
           "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
+          "count": 0,
+          "uniques": 0
         }
       ]
     },
     "PocketLLM": {
       "watchers": [],
       "traffic_ok": true,
-      "views_count_total": 28,
+      "views_count_total": 25,
       "views_uniques_total": 10,
       "views_daily": [
-        {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 4,
-          "uniques": 1
-        },
         {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 1,
@@ -1714,6 +1709,11 @@
           "timestamp": "2026-10-28T00:00:00Z",
           "count": 4,
           "uniques": 1
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
+          "count": 1,
+          "uniques": 1
         }
       ]
     },
@@ -1723,11 +1723,6 @@
       "views_count_total": 0,
       "views_uniques_total": 0,
       "views_daily": [
-        {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
         {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
@@ -1790,6 +1785,11 @@
         },
         {
           "timestamp": "2026-10-28T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -1880,11 +1880,6 @@
       "views_uniques_total": 0,
       "views_daily": [
         {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -1948,20 +1943,20 @@
           "timestamp": "2026-10-28T00:00:00Z",
           "count": 0,
           "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
+          "count": 0,
+          "uniques": 0
         }
       ]
     },
     "Recall": {
       "watchers": [],
       "traffic_ok": true,
-      "views_count_total": 2,
-      "views_uniques_total": 2,
+      "views_count_total": 5,
+      "views_uniques_total": 5,
       "views_daily": [
-        {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
         {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
@@ -2026,20 +2021,20 @@
           "timestamp": "2026-10-28T00:00:00Z",
           "count": 0,
           "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
+          "count": 3,
+          "uniques": 3
         }
       ]
     },
     "ShiftLeft": {
       "watchers": [],
       "traffic_ok": true,
-      "views_count_total": 4,
-      "views_uniques_total": 4,
+      "views_count_total": 6,
+      "views_uniques_total": 6,
       "views_daily": [
-        {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
         {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
@@ -2104,6 +2099,11 @@
           "timestamp": "2026-10-28T00:00:00Z",
           "count": 4,
           "uniques": 4
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
+          "count": 2,
+          "uniques": 2
         }
       ]
     },
@@ -2113,11 +2113,6 @@
       "views_count_total": 0,
       "views_uniques_total": 0,
       "views_daily": [
-        {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
         {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
@@ -2182,20 +2177,20 @@
           "timestamp": "2026-10-28T00:00:00Z",
           "count": 0,
           "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
+          "count": 0,
+          "uniques": 0
         }
       ]
     },
     "TrueNorth": {
       "watchers": [],
       "traffic_ok": true,
-      "views_count_total": 23,
-      "views_uniques_total": 6,
+      "views_count_total": 28,
+      "views_uniques_total": 9,
       "views_daily": [
-        {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 1,
-          "uniques": 1
-        },
         {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 1,
@@ -2260,6 +2255,11 @@
           "timestamp": "2026-10-28T00:00:00Z",
           "count": 1,
           "uniques": 1
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
+          "count": 6,
+          "uniques": 5
         }
       ]
     },
@@ -2269,11 +2269,6 @@
       "views_count_total": 0,
       "views_uniques_total": 0,
       "views_daily": [
-        {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
         {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
@@ -2336,6 +2331,11 @@
         },
         {
           "timestamp": "2026-10-28T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -2348,11 +2348,6 @@
       "views_uniques_total": 0,
       "views_daily": [
         {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -2414,6 +2409,11 @@
         },
         {
           "timestamp": "2026-10-28T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -2426,11 +2426,6 @@
       "views_uniques_total": 0,
       "views_daily": [
         {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -2494,6 +2489,11 @@
           "timestamp": "2026-10-28T00:00:00Z",
           "count": 0,
           "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
+          "count": 0,
+          "uniques": 0
         }
       ]
     },
@@ -2503,11 +2503,6 @@
       "views_count_total": 11,
       "views_uniques_total": 1,
       "views_daily": [
-        {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
         {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
@@ -2570,6 +2565,11 @@
         },
         {
           "timestamp": "2026-10-28T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
           "count": 0,
           "uniques": 0
         }

@@ -303,6 +303,10 @@
     "2026-10-28": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-29": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "AllBlue": {
@@ -609,6 +613,10 @@
     "2026-10-28": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-29": {
+      "count": 1,
+      "uniques": 1
     }
   },
   "amareshhebbar": {
@@ -913,6 +921,10 @@
       "uniques": 1
     },
     "2026-10-28": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-29": {
       "count": 0,
       "uniques": 0
     }
@@ -1221,6 +1233,10 @@
     "2026-10-28": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-29": {
+      "count": 1,
+      "uniques": 1
     }
   },
   "AxisMapper": {
@@ -1525,6 +1541,10 @@
       "uniques": 0
     },
     "2026-10-28": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-29": {
       "count": 0,
       "uniques": 0
     }
@@ -2143,6 +2163,10 @@
     "2026-10-28": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-29": {
+      "count": 2,
+      "uniques": 2
     }
   },
   "LogPoseSIFT": {
@@ -2449,6 +2473,10 @@
     "2026-10-28": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-29": {
+      "count": 1,
+      "uniques": 1
     }
   },
   "mdflow": {
@@ -2755,6 +2783,10 @@
     "2026-10-28": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-29": {
+      "count": 3,
+      "uniques": 3
     }
   },
   "netra": {
@@ -3059,6 +3091,10 @@
       "uniques": 0
     },
     "2026-10-28": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-29": {
       "count": 0,
       "uniques": 0
     }
@@ -3367,6 +3403,10 @@
     "2026-10-28": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-29": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "ollama-vscode": {
@@ -3671,6 +3711,10 @@
       "uniques": 0
     },
     "2026-10-28": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-29": {
       "count": 0,
       "uniques": 0
     }
@@ -3979,6 +4023,10 @@
     "2026-10-28": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-29": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "PocketLLM": {
@@ -4285,6 +4333,10 @@
     "2026-10-28": {
       "count": 4,
       "uniques": 1
+    },
+    "2026-10-29": {
+      "count": 1,
+      "uniques": 1
     }
   },
   "PocketLLM-backend": {
@@ -4589,6 +4641,10 @@
       "uniques": 0
     },
     "2026-10-28": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-29": {
       "count": 0,
       "uniques": 0
     }
@@ -5207,6 +5263,10 @@
     "2026-10-28": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-29": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "raiseTicket": {
@@ -5707,6 +5767,10 @@
     "2026-10-28": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-29": {
+      "count": 3,
+      "uniques": 3
     }
   },
   "ShiftLeft": {
@@ -6013,6 +6077,10 @@
     "2026-10-28": {
       "count": 4,
       "uniques": 4
+    },
+    "2026-10-29": {
+      "count": 2,
+      "uniques": 2
     }
   },
   "sidepanel": {
@@ -6309,6 +6377,10 @@
       "uniques": 0
     },
     "2026-10-28": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-29": {
       "count": 0,
       "uniques": 0
     }
@@ -6617,6 +6689,10 @@
     "2026-10-28": {
       "count": 1,
       "uniques": 1
+    },
+    "2026-10-29": {
+      "count": 6,
+      "uniques": 5
     }
   },
   "truenorth-framework.github.io": {
@@ -6921,6 +6997,10 @@
       "uniques": 0
     },
     "2026-10-28": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-29": {
       "count": 0,
       "uniques": 0
     }
@@ -7229,6 +7309,10 @@
     "2026-10-28": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-29": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "unsloth-zoo": {
@@ -7535,6 +7619,10 @@
     "2026-10-28": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-29": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "bitnarrow": {
@@ -7829,6 +7917,10 @@
     "2026-10-28": {
       "count": 1,
       "uniques": 1
+    },
+    "2026-10-29": {
+      "count": 1,
+      "uniques": 1
     }
   },
   "anacodic-agentic-cookbook": {
@@ -8019,6 +8111,10 @@
     "2026-10-28": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-29": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "gitgrounded": {
@@ -8205,6 +8301,10 @@
     "2026-10-28": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-29": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "modeldiffr": {
@@ -8369,6 +8469,10 @@
       "uniques": 0
     },
     "2026-10-28": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-29": {
       "count": 0,
       "uniques": 0
     }
@@ -8541,6 +8645,10 @@
     "2026-10-28": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-29": {
+      "count": 2,
+      "uniques": 2
     }
   },
   "northwind": {
@@ -8741,6 +8849,10 @@
     "2026-10-28": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-29": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "FlipAware": {
@@ -8879,6 +8991,10 @@
       "uniques": 1
     },
     "2026-10-28": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-29": {
       "count": 0,
       "uniques": 0
     }
