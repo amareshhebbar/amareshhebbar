@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-29T22:54:14.010002+00:00",
+  "timestamp": "2026-10-30T05:22:27.219483+00:00",
   "repos": {
     "AgentKit": {
       "watchers": [],
@@ -554,11 +554,6 @@
       "views_uniques_total": 1,
       "views_daily": [
         {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -622,6 +617,11 @@
           "timestamp": "2026-10-28T00:00:00Z",
           "count": 4,
           "uniques": 1
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
+          "count": 0,
+          "uniques": 0
         }
       ]
     },
@@ -706,14 +706,9 @@
     "hatpet": {
       "watchers": [],
       "traffic_ok": true,
-      "views_count_total": 7,
-      "views_uniques_total": 4,
+      "views_count_total": 6,
+      "views_uniques_total": 3,
       "views_daily": [
-        {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 1,
-          "uniques": 1
-        },
         {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
@@ -776,6 +771,11 @@
         },
         {
           "timestamp": "2026-10-28T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -1256,11 +1256,6 @@
       "views_uniques_total": 0,
       "views_daily": [
         {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -1322,6 +1317,11 @@
         },
         {
           "timestamp": "2026-10-28T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -1802,11 +1802,6 @@
       "views_uniques_total": 0,
       "views_daily": [
         {
-          "timestamp": "2026-10-15T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-10-16T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -1868,6 +1863,11 @@
         },
         {
           "timestamp": "2026-10-28T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-10-29T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
