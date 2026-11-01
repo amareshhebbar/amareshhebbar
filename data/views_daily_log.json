@@ -311,6 +311,10 @@
     "2026-10-30": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-31": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "AllBlue": {
@@ -623,6 +627,10 @@
       "uniques": 1
     },
     "2026-10-30": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-31": {
       "count": 0,
       "uniques": 0
     }
@@ -939,6 +947,10 @@
     "2026-10-30": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-31": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "AtomicRAG": {
@@ -1253,6 +1265,10 @@
     "2026-10-30": {
       "count": 1,
       "uniques": 1
+    },
+    "2026-10-31": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "AxisMapper": {
@@ -1565,6 +1581,10 @@
       "uniques": 0
     },
     "2026-10-30": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-31": {
       "count": 0,
       "uniques": 0
     }
@@ -1881,6 +1901,10 @@
     "2026-10-30": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-31": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "hiresignal": {
@@ -2195,6 +2219,10 @@
     "2026-10-30": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-31": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "LogPoseSIFT": {
@@ -2507,6 +2535,10 @@
       "uniques": 1
     },
     "2026-10-30": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-31": {
       "count": 0,
       "uniques": 0
     }
@@ -3141,6 +3173,10 @@
     "2026-10-30": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-31": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "oceanai_website": {
@@ -3453,6 +3489,10 @@
       "uniques": 0
     },
     "2026-10-30": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-31": {
       "count": 0,
       "uniques": 0
     }
@@ -3769,6 +3809,10 @@
     "2026-10-30": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-31": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "pLLM": {
@@ -4081,6 +4125,10 @@
       "uniques": 0
     },
     "2026-10-30": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-31": {
       "count": 0,
       "uniques": 0
     }
@@ -4397,6 +4445,10 @@
     "2026-10-30": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-31": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "PocketLLM-backend": {
@@ -4709,6 +4761,10 @@
       "uniques": 0
     },
     "2026-10-30": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-31": {
       "count": 0,
       "uniques": 0
     }
@@ -5025,6 +5081,10 @@
     "2026-10-30": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-31": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "Radeon-hackathon-2026-07": {
@@ -5337,6 +5397,10 @@
       "uniques": 0
     },
     "2026-10-30": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-31": {
       "count": 0,
       "uniques": 0
     }
@@ -5847,6 +5911,10 @@
     "2026-10-30": {
       "count": 2,
       "uniques": 2
+    },
+    "2026-10-31": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "ShiftLeft": {
@@ -6161,6 +6229,10 @@
     "2026-10-30": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-31": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "sidepanel": {
@@ -6465,6 +6537,10 @@
       "uniques": 0
     },
     "2026-10-30": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-31": {
       "count": 0,
       "uniques": 0
     }
@@ -7099,6 +7175,10 @@
     "2026-10-30": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-31": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "TrueNorth-samples": {
@@ -7411,6 +7491,10 @@
       "uniques": 0
     },
     "2026-10-30": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-31": {
       "count": 0,
       "uniques": 0
     }
@@ -7727,6 +7811,10 @@
     "2026-10-30": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-31": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "bitnarrow": {
@@ -8029,6 +8117,10 @@
     "2026-10-30": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-31": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "anacodic-agentic-cookbook": {
@@ -8227,6 +8319,10 @@
     "2026-10-30": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-31": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "gitgrounded": {
@@ -8421,6 +8517,10 @@
     "2026-10-30": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-31": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "modeldiffr": {
@@ -8593,6 +8693,10 @@
       "uniques": 0
     },
     "2026-10-30": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-31": {
       "count": 0,
       "uniques": 0
     }
@@ -8773,6 +8877,10 @@
     "2026-10-30": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-31": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "northwind": {
@@ -8903,6 +9011,10 @@
     "2026-10-30": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-31": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "Plyscope": {
@@ -8985,6 +9097,10 @@
     "2026-10-30": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-31": {
+      "count": 1,
+      "uniques": 1
     }
   },
   "FlipAware": {
@@ -9141,6 +9257,10 @@
     "2026-10-30": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-31": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "FaultLine": {
@@ -9197,8 +9317,8 @@
       "uniques": 0
     },
     "2026-10-31": {
-      "count": 0,
-      "uniques": 0
+      "count": 4,
+      "uniques": 1
     },
     "2026-11-01": {
       "count": 0,
