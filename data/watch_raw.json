@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-01T22:14:36.923933+00:00",
+  "timestamp": "2026-11-02T05:35:11.412710+00:00",
   "repos": {
     "AgentKit": {
       "watchers": [],
@@ -1568,11 +1568,6 @@
       "views_uniques_total": 0,
       "views_daily": [
         {
-          "timestamp": "2026-10-18T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-10-19T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -1634,6 +1629,11 @@
         },
         {
           "timestamp": "2026-10-31T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-11-01T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -1720,14 +1720,9 @@
     "PocketLLM": {
       "watchers": [],
       "traffic_ok": true,
-      "views_count_total": 23,
-      "views_uniques_total": 8,
+      "views_count_total": 17,
+      "views_uniques_total": 7,
       "views_daily": [
-        {
-          "timestamp": "2026-10-18T00:00:00Z",
-          "count": 6,
-          "uniques": 1
-        },
         {
           "timestamp": "2026-10-19T00:00:00Z",
           "count": 0,
@@ -1790,6 +1785,11 @@
         },
         {
           "timestamp": "2026-10-31T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-11-01T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -2114,11 +2114,6 @@
       "views_uniques_total": 6,
       "views_daily": [
         {
-          "timestamp": "2026-10-18T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-10-19T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -2180,6 +2175,11 @@
         },
         {
           "timestamp": "2026-10-31T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-11-01T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -2426,11 +2426,6 @@
       "views_uniques_total": 0,
       "views_daily": [
         {
-          "timestamp": "2026-10-18T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-10-19T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -2492,6 +2487,11 @@
         },
         {
           "timestamp": "2026-10-31T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-11-01T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
