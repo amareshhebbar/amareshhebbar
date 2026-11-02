@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "repo": "TradingAI",
+    "commits": 8,
+    "private": true
+  },
+  {
+    "repo": "fitness-frontend",
+    "commits": 1,
+    "private": true
+  }
+]
