@@ -1,8 +1,13 @@
 [
   {
     "repo": "TradingAI",
-    "commits": 8,
+    "commits": 19,
     "private": true
+  },
+  {
+    "repo": "RootCast",
+    "commits": 4,
+    "private": false
   },
   {
     "repo": "fitness-frontend",
