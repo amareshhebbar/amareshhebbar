@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-03T23:33:17.899416+00:00",
+  "timestamp": "2026-11-04T05:51:11.461427+00:00",
   "repos": {
     "AgentKit": {
       "watchers": [],
@@ -242,11 +242,6 @@
       "views_uniques_total": 0,
       "views_daily": [
         {
-          "timestamp": "2026-10-20T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-10-21T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -308,6 +303,11 @@
         },
         {
           "timestamp": "2026-11-02T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-11-03T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -398,11 +398,6 @@
       "views_uniques_total": 0,
       "views_daily": [
         {
-          "timestamp": "2026-10-20T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-10-21T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -464,6 +459,11 @@
         },
         {
           "timestamp": "2026-11-02T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-11-03T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -550,14 +550,9 @@
     "FaultLine": {
       "watchers": [],
       "traffic_ok": true,
-      "views_count_total": 16,
+      "views_count_total": 17,
       "views_uniques_total": 2,
       "views_daily": [
-        {
-          "timestamp": "2026-10-20T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
         {
           "timestamp": "2026-10-21T00:00:00Z",
           "count": 0,
@@ -620,6 +615,11 @@
         },
         {
           "timestamp": "2026-11-02T00:00:00Z",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "timestamp": "2026-11-03T00:00:00Z",
           "count": 1,
           "uniques": 1
         }
@@ -788,11 +788,6 @@
       "views_uniques_total": 2,
       "views_daily": [
         {
-          "timestamp": "2026-10-20T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-10-21T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -854,6 +849,11 @@
         },
         {
           "timestamp": "2026-11-02T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-11-03T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -1100,11 +1100,6 @@
       "views_uniques_total": 6,
       "views_daily": [
         {
-          "timestamp": "2026-10-20T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-10-21T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -1168,20 +1163,20 @@
           "timestamp": "2026-11-02T00:00:00Z",
           "count": 0,
           "uniques": 0
+        },
+        {
+          "timestamp": "2026-11-03T00:00:00Z",
+          "count": 0,
+          "uniques": 0
         }
       ]
     },
     "modeldiffr": {
       "watchers": [],
       "traffic_ok": true,
-      "views_count_total": 25,
+      "views_count_total": 26,
       "views_uniques_total": 2,
       "views_daily": [
-        {
-          "timestamp": "2026-10-20T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
         {
           "timestamp": "2026-10-21T00:00:00Z",
           "count": 0,
@@ -1246,6 +1241,11 @@
           "timestamp": "2026-11-02T00:00:00Z",
           "count": 0,
           "uniques": 0
+        },
+        {
+          "timestamp": "2026-11-03T00:00:00Z",
+          "count": 1,
+          "uniques": 1
         }
       ]
     },
@@ -1720,14 +1720,9 @@
     "PocketLLM": {
       "watchers": [],
       "traffic_ok": true,
-      "views_count_total": 17,
-      "views_uniques_total": 7,
+      "views_count_total": 18,
+      "views_uniques_total": 8,
       "views_daily": [
-        {
-          "timestamp": "2026-10-20T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
         {
           "timestamp": "2026-10-21T00:00:00Z",
           "count": 8,
@@ -1792,6 +1787,11 @@
           "timestamp": "2026-11-02T00:00:00Z",
           "count": 0,
           "uniques": 0
+        },
+        {
+          "timestamp": "2026-11-03T00:00:00Z",
+          "count": 1,
+          "uniques": 1
         }
       ]
     },
@@ -1958,11 +1958,6 @@
       "views_uniques_total": 0,
       "views_daily": [
         {
-          "timestamp": "2026-10-20T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-10-21T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -2024,6 +2019,11 @@
         },
         {
           "timestamp": "2026-11-02T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-11-03T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -2114,11 +2114,6 @@
       "views_uniques_total": 0,
       "views_daily": [
         {
-          "timestamp": "2026-10-21T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-10-22T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -2180,6 +2175,11 @@
         },
         {
           "timestamp": "2026-11-03T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-11-04T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -2344,14 +2344,9 @@
     "TrueNorth": {
       "watchers": [],
       "traffic_ok": true,
-      "views_count_total": 27,
-      "views_uniques_total": 11,
+      "views_count_total": 28,
+      "views_uniques_total": 10,
       "views_daily": [
-        {
-          "timestamp": "2026-10-20T00:00:00Z",
-          "count": 2,
-          "uniques": 2
-        },
         {
           "timestamp": "2026-10-21T00:00:00Z",
           "count": 0,
@@ -2415,6 +2410,11 @@
         {
           "timestamp": "2026-11-02T00:00:00Z",
           "count": 2,
+          "uniques": 2
+        },
+        {
+          "timestamp": "2026-11-03T00:00:00Z",
+          "count": 3,
           "uniques": 2
         }
       ]
