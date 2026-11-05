@@ -4287,6 +4287,10 @@
     "2026-11-03": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-04": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "PocketLLM": {
@@ -4947,6 +4951,10 @@
     "2026-11-03": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-04": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "PocketLLM-expoFrontend": {
@@ -5277,6 +5285,10 @@
     "2026-11-03": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-04": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "Radeon-hackathon-2026-07": {
@@ -5605,6 +5617,10 @@
       "uniques": 0
     },
     "2026-11-03": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-04": {
       "count": 0,
       "uniques": 0
     }
@@ -6131,6 +6147,10 @@
     "2026-11-03": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-04": {
+      "count": 1,
+      "uniques": 1
     }
   },
   "ShiftLeft": {
@@ -6783,6 +6803,10 @@
     "2026-11-03": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-04": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "TrueNorth": {
@@ -7113,6 +7137,10 @@
     "2026-11-03": {
       "count": 3,
       "uniques": 2
+    },
+    "2026-11-04": {
+      "count": 4,
+      "uniques": 4
     }
   },
   "truenorth-framework.github.io": {
@@ -8845,6 +8873,10 @@
     "2026-11-03": {
       "count": 1,
       "uniques": 1
+    },
+    "2026-11-04": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "modeldiffr": {
@@ -9035,6 +9067,10 @@
     "2026-11-03": {
       "count": 1,
       "uniques": 1
+    },
+    "2026-11-04": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "issueLoop": {
@@ -9227,6 +9263,10 @@
       "uniques": 0
     },
     "2026-11-03": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-04": {
       "count": 0,
       "uniques": 0
     }
@@ -9727,6 +9767,10 @@
     "2026-11-03": {
       "count": 1,
       "uniques": 1
+    },
+    "2026-11-04": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "RootCast": {
