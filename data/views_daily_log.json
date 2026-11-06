@@ -331,6 +331,10 @@
     "2026-11-04": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-05": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "AllBlue": {
@@ -663,6 +667,10 @@
       "uniques": 0
     },
     "2026-11-04": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-05": {
       "count": 0,
       "uniques": 0
     }
@@ -999,6 +1007,10 @@
     "2026-11-04": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-05": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "AtomicRAG": {
@@ -1331,6 +1343,10 @@
       "uniques": 0
     },
     "2026-11-04": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-05": {
       "count": 0,
       "uniques": 0
     }
@@ -2005,6 +2021,10 @@
     "2026-11-04": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-05": {
+      "count": 1,
+      "uniques": 1
     }
   },
   "hiresignal": {
@@ -2337,6 +2357,10 @@
       "uniques": 0
     },
     "2026-11-04": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-05": {
       "count": 0,
       "uniques": 0
     }
@@ -3011,6 +3035,10 @@
     "2026-11-04": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-05": {
+      "count": 5,
+      "uniques": 5
     }
   },
   "netra": {
@@ -3343,6 +3371,10 @@
       "uniques": 0
     },
     "2026-11-04": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-05": {
       "count": 0,
       "uniques": 0
     }
@@ -4017,6 +4049,10 @@
     "2026-11-04": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-05": {
+      "count": 3,
+      "uniques": 3
     }
   },
   "pLLM": {
@@ -5027,6 +5063,10 @@
     "2026-11-04": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-05": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "PocketLLM-expoFrontend": {
@@ -5699,6 +5739,10 @@
     "2026-11-04": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-05": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "raiseTicket": {
@@ -6227,6 +6271,10 @@
     "2026-11-04": {
       "count": 1,
       "uniques": 1
+    },
+    "2026-11-05": {
+      "count": 4,
+      "uniques": 4
     }
   },
   "ShiftLeft": {
@@ -6891,6 +6939,10 @@
     "2026-11-04": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-05": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "TrueNorth": {
@@ -7225,6 +7277,10 @@
     "2026-11-04": {
       "count": 4,
       "uniques": 4
+    },
+    "2026-11-05": {
+      "count": 2,
+      "uniques": 2
     }
   },
   "truenorth-framework.github.io": {
@@ -7559,6 +7615,10 @@
     "2026-11-04": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-05": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "TrueNorth-samples": {
@@ -7891,6 +7951,10 @@
       "uniques": 0
     },
     "2026-11-04": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-05": {
       "count": 0,
       "uniques": 0
     }
@@ -8553,6 +8617,10 @@
     "2026-11-04": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-05": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "anacodic-agentic-cookbook": {
@@ -8771,6 +8839,10 @@
     "2026-11-04": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-05": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "gitgrounded": {
@@ -8983,6 +9055,10 @@
       "uniques": 1
     },
     "2026-11-04": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-05": {
       "count": 0,
       "uniques": 0
     }
@@ -9641,6 +9717,10 @@
     "2026-11-04": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-05": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "FlipAware": {
@@ -9837,6 +9917,10 @@
     "2026-11-04": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-05": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "FaultLine": {
@@ -9975,6 +10059,10 @@
       "uniques": 7
     },
     "2026-11-04": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-05": {
       "count": 0,
       "uniques": 0
     }
