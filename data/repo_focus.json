@@ -1,5 +1,10 @@
 [
   {
+    "repo": "Carrot",
+    "commits": 28,
+    "private": true
+  },
+  {
     "repo": "TradingAI",
     "commits": 24,
     "private": true
@@ -18,5 +23,10 @@
     "repo": "fitness-backend",
     "commits": 2,
     "private": true
+  },
+  {
+    "repo": "impossible-website",
+    "commits": 1,
+    "private": false
   }
 ]
