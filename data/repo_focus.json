@@ -1,28 +1,28 @@
 [
   {
     "repo": "Carrot",
-    "commits": 41,
+    "commits": 51,
     "private": true
   },
   {
     "repo": "TradingAI",
-    "commits": 24,
+    "commits": 25,
+    "private": true
+  },
+  {
+    "repo": "fitness-backend",
+    "commits": 4,
+    "private": true
+  },
+  {
+    "repo": "fitness-frontend",
+    "commits": 4,
     "private": true
   },
   {
     "repo": "RootCast",
     "commits": 4,
     "private": false
-  },
-  {
-    "repo": "fitness-frontend",
-    "commits": 3,
-    "private": true
-  },
-  {
-    "repo": "fitness-backend",
-    "commits": 2,
-    "private": true
   },
   {
     "repo": "impossible-website",
