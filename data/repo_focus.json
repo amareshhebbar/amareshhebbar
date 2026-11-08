@@ -10,12 +10,12 @@
     "private": true
   },
   {
-    "repo": "fitness-backend",
-    "commits": 4,
+    "repo": "fitness-frontend",
+    "commits": 5,
     "private": true
   },
   {
-    "repo": "fitness-frontend",
+    "repo": "fitness-backend",
     "commits": 4,
     "private": true
   },
@@ -26,7 +26,7 @@
   },
   {
     "repo": "impossible-website",
-    "commits": 1,
+    "commits": 2,
     "private": false
   }
 ]
