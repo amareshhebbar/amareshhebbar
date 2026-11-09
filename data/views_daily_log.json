@@ -693,6 +693,10 @@
     "2026-11-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "amareshhebbar": {
@@ -1037,6 +1041,10 @@
       "uniques": 0
     },
     "2026-11-07": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-08": {
       "count": 0,
       "uniques": 0
     }
@@ -1385,6 +1393,10 @@
     "2026-11-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "AxisMapper": {
@@ -1729,6 +1741,10 @@
       "uniques": 0
     },
     "2026-11-07": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-08": {
       "count": 0,
       "uniques": 0
     }
@@ -2427,6 +2443,10 @@
     "2026-11-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-08": {
+      "count": 1,
+      "uniques": 1
     }
   },
   "LogPoseSIFT": {
@@ -3819,6 +3839,10 @@
     "2026-11-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "ollama-vscode": {
@@ -4165,6 +4189,10 @@
     "2026-11-07": {
       "count": 1,
       "uniques": 1
+    },
+    "2026-11-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "pLLM": {
@@ -4511,6 +4539,10 @@
     "2026-11-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "PocketLLM": {
@@ -4855,6 +4887,10 @@
       "uniques": 1
     },
     "2026-11-07": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-08": {
       "count": 0,
       "uniques": 0
     }
@@ -5553,6 +5589,10 @@
     "2026-11-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "Radeon-hackathon-2026-07": {
@@ -5897,6 +5937,10 @@
       "uniques": 0
     },
     "2026-11-07": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-08": {
       "count": 0,
       "uniques": 0
     }
@@ -6439,6 +6483,10 @@
     "2026-11-07": {
       "count": 1,
       "uniques": 1
+    },
+    "2026-11-08": {
+      "count": 1,
+      "uniques": 1
     }
   },
   "ShiftLeft": {
@@ -6783,6 +6831,10 @@
       "uniques": 0
     },
     "2026-11-07": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-08": {
       "count": 0,
       "uniques": 0
     }
@@ -7473,6 +7525,10 @@
     "2026-11-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "truenorth-framework.github.io": {
@@ -7819,6 +7875,10 @@
     "2026-11-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "TrueNorth-samples": {
@@ -8163,6 +8223,10 @@
       "uniques": 0
     },
     "2026-11-07": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-08": {
       "count": 0,
       "uniques": 0
     }
@@ -8849,6 +8913,10 @@
     "2026-11-07": {
       "count": 1,
       "uniques": 1
+    },
+    "2026-11-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "anacodic-agentic-cookbook": {
@@ -9733,6 +9801,10 @@
     "2026-11-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "northwind": {
@@ -9895,6 +9967,10 @@
     "2026-11-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "Plyscope": {
@@ -10007,6 +10083,10 @@
       "uniques": 0
     },
     "2026-11-07": {
+      "count": 1,
+      "uniques": 1
+    },
+    "2026-11-08": {
       "count": 1,
       "uniques": 1
     }
@@ -10229,6 +10309,10 @@
     "2026-11-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-08": {
+      "count": 1,
+      "uniques": 1
     }
   },
   "FaultLine": {
@@ -10315,6 +10399,10 @@
     "2026-11-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-08": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "RootCast": {
@@ -10387,6 +10475,68 @@
       "uniques": 0
     },
     "2026-11-07": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-08": {
+      "count": 0,
+      "uniques": 0
+    }
+  },
+  "ShortThink": {
+    "2026-10-27": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-28": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-29": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-30": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-10-31": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-01": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-02": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-03": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-04": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-05": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-06": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-07": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-08": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-09": {
       "count": 0,
       "uniques": 0
     }
