@@ -1,7 +1,7 @@
 [
   {
     "repo": "Carrot",
-    "commits": 51,
+    "commits": 57,
     "private": true
   },
   {
@@ -11,22 +11,22 @@
   },
   {
     "repo": "ShortThink",
+    "commits": 16,
+    "private": false
+  },
+  {
+    "repo": "ToolSure",
     "commits": 15,
     "private": false
   },
   {
-    "repo": "fitness-frontend",
-    "commits": 5,
-    "private": true
-  },
-  {
-    "repo": "fitness-backend",
-    "commits": 4,
-    "private": true
-  },
-  {
-    "repo": "RootCast",
-    "commits": 4,
+    "repo": "Stretch32K",
+    "commits": 13,
     "private": false
+  },
+  {
+    "repo": "fitness-frontend",
+    "commits": 6,
+    "private": true
   }
 ]
