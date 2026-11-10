@@ -10,6 +10,11 @@
     "private": true
   },
   {
+    "repo": "ShortThink",
+    "commits": 15,
+    "private": false
+  },
+  {
     "repo": "fitness-frontend",
     "commits": 5,
     "private": true
@@ -22,11 +27,6 @@
   {
     "repo": "RootCast",
     "commits": 4,
-    "private": false
-  },
-  {
-    "repo": "impossible-website",
-    "commits": 2,
     "private": false
   }
 ]
