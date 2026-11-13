@@ -6,27 +6,27 @@
   },
   {
     "repo": "TradingAI",
-    "commits": 25,
+    "commits": 26,
     "private": true
   },
   {
     "repo": "ShortThink",
-    "commits": 20,
+    "commits": 21,
     "private": false
   },
   {
     "repo": "ToolSure",
-    "commits": 17,
+    "commits": 18,
+    "private": false
+  },
+  {
+    "repo": "Stretch32K",
+    "commits": 16,
     "private": false
   },
   {
     "repo": "Ternary1B",
     "commits": 16,
-    "private": false
-  },
-  {
-    "repo": "Stretch32K",
-    "commits": 15,
     "private": false
   }
 ]
