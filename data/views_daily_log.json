@@ -1445,6 +1445,10 @@
     "2026-11-11": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-12": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "AxisMapper": {
@@ -1805,6 +1809,10 @@
       "uniques": 0
     },
     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-12": {
       "count": 0,
       "uniques": 0
     }
@@ -2529,6 +2537,10 @@
       "uniques": 0
     },
     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-12": {
       "count": 0,
       "uniques": 0
     }
@@ -4317,6 +4329,10 @@
     "2026-11-11": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-12": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "pLLM": {
@@ -5401,6 +5417,10 @@
       "uniques": 0
     },
     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-12": {
       "count": 0,
       "uniques": 0
     }
@@ -7753,6 +7773,10 @@
     "2026-11-11": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-12": {
+      "count": 2,
+      "uniques": 2
     }
   },
   "truenorth-framework.github.io": {
@@ -8831,6 +8855,10 @@
     "2026-11-11": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-12": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "bitnarrow": {
@@ -9181,6 +9209,10 @@
     "2026-11-11": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-12": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "anacodic-agentic-cookbook": {
@@ -9425,6 +9457,10 @@
       "uniques": 0
     },
     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-12": {
       "count": 0,
       "uniques": 0
     }
@@ -10117,6 +10153,10 @@
     "2026-11-11": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-12": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "northwind": {
@@ -10425,6 +10465,10 @@
     "2026-11-11": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-12": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "FlipAware": {
@@ -10549,6 +10593,10 @@
       "uniques": 0
     },
     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-11-12": {
       "count": 0,
       "uniques": 0
     }
@@ -10931,6 +10979,10 @@
     "2026-11-11": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-12": {
+      "count": 3,
+      "uniques": 1
     }
   },
   "Stretch32K": {
@@ -11113,6 +11165,10 @@
     "2026-11-12": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-13": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "Ternary1B": {
@@ -11169,8 +11225,8 @@
       "uniques": 0
     },
     "2026-11-12": {
-      "count": 0,
-      "uniques": 0
+      "count": 2,
+      "uniques": 1
     }
   }
 }
