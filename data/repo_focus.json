@@ -20,12 +20,12 @@
     "private": false
   },
   {
-    "repo": "Stretch32K",
+    "repo": "modeldiffr",
     "commits": 16,
     "private": false
   },
   {
-    "repo": "Ternary1B",
+    "repo": "Stretch32K",
     "commits": 16,
     "private": false
   }
