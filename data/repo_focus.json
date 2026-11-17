@@ -16,17 +16,17 @@
   },
   {
     "repo": "ToolSure",
-    "commits": 22,
+    "commits": 23,
+    "private": false
+  },
+  {
+    "repo": "modeldiffr",
+    "commits": 20,
     "private": false
   },
   {
     "repo": "Ternary1B",
-    "commits": 18,
-    "private": false
-  },
-  {
-    "repo": "Stretch32K",
-    "commits": 17,
+    "commits": 19,
     "private": false
   }
 ]
