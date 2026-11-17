@@ -15,7 +15,9 @@
   "labrunner": [],
   "LogPoseSIFT": [],
   "mdflow": [],
-  "modeldiffr": [],
+  "modeldiffr": [
+    "drkostas"
+  ],
   "netra": [],
   "northwind": [],
   "oceanai_website": [],
