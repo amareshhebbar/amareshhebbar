@@ -10,6 +10,11 @@
     "private": true
   },
   {
+    "repo": "modeldiffr",
+    "commits": 25,
+    "private": false
+  },
+  {
     "repo": "ShortThink",
     "commits": 25,
     "private": false
@@ -17,11 +22,6 @@
   {
     "repo": "ToolSure",
     "commits": 23,
-    "private": false
-  },
-  {
-    "repo": "modeldiffr",
-    "commits": 20,
     "private": false
   },
   {
