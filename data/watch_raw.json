@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-21T18:59:05.090635+00:00",
+  "timestamp": "2026-11-21T23:30:41.660880+00:00",
   "repos": {
     "AgentKit": {
       "watchers": [],
@@ -1172,9 +1172,7 @@
       ]
     },
     "modeldiffr": {
-      "watchers": [
-        "drkostas"
-      ],
+      "watchers": [],
       "traffic_ok": true,
       "views_count_total": 66,
       "views_uniques_total": 34,
