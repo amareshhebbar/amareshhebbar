@@ -5,6 +5,11 @@
     "private": true
   },
   {
+    "repo": "FaultLine",
+    "commits": 30,
+    "private": false
+  },
+  {
     "repo": "TradingAI",
     "commits": 26,
     "private": true
@@ -22,11 +27,6 @@
   {
     "repo": "ToolSure",
     "commits": 23,
-    "private": false
-  },
-  {
-    "repo": "Ternary1B",
-    "commits": 19,
     "private": false
   }
 ]
