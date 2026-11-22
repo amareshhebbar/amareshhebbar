@@ -6,7 +6,7 @@
   },
   {
     "repo": "FaultLine",
-    "commits": 30,
+    "commits": 44,
     "private": false
   },
   {
@@ -15,12 +15,12 @@
     "private": true
   },
   {
-    "repo": "ShortThink",
+    "repo": "modeldiffr",
     "commits": 25,
     "private": false
   },
   {
-    "repo": "modeldiffr",
+    "repo": "ShortThink",
     "commits": 25,
     "private": false
   },
