@@ -497,10 +497,10 @@
   },
   {
     "month": "2026-11",
-    "commits": 327,
-    "prs": 14,
+    "commits": 332,
+    "prs": 15,
     "reviews": 5,
-    "issues": 0,
+    "issues": 1,
     "restricted": 0
   }
 ]
