@@ -33,6 +33,7 @@
   "Recall": [],
   "RootCast": [],
   "RunGated": [],
+  "sdk-python": [],
   "ShiftLeft": [],
   "ShortThink": [],
   "sidepanel": [],
@@ -48,5 +49,6 @@
   "TrueNorth-samples": [],
   "unsloth": [],
   "unsloth-zoo": [],
-  "Vec16": []
+  "Vec16": [],
+  "yek": []
 }
