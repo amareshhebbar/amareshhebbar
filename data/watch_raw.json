@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-27T07:53:03.482999+00:00",
+  "timestamp": "2026-11-27T20:58:56.592493+00:00",
   "repos": {
     "AgentKit": {
       "watchers": [],
@@ -160,14 +160,9 @@
     "amareshhebbar": {
       "watchers": [],
       "traffic_ok": true,
-      "views_count_total": 16,
-      "views_uniques_total": 2,
+      "views_count_total": 17,
+      "views_uniques_total": 3,
       "views_daily": [
-        {
-          "timestamp": "2026-11-12T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
         {
           "timestamp": "2026-11-13T00:00:00Z",
           "count": 0,
@@ -232,6 +227,11 @@
           "timestamp": "2026-11-25T00:00:00Z",
           "count": 0,
           "uniques": 0
+        },
+        {
+          "timestamp": "2026-11-26T00:00:00Z",
+          "count": 1,
+          "uniques": 1
         }
       ]
     },
@@ -554,11 +554,6 @@
       "views_uniques_total": 0,
       "views_daily": [
         {
-          "timestamp": "2026-11-12T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-11-13T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -620,6 +615,11 @@
         },
         {
           "timestamp": "2026-11-25T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-11-26T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -1954,14 +1954,9 @@
     "Plyscope": {
       "watchers": [],
       "traffic_ok": true,
-      "views_count_total": 8,
-      "views_uniques_total": 4,
+      "views_count_total": 10,
+      "views_uniques_total": 5,
       "views_daily": [
-        {
-          "timestamp": "2026-11-12T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
         {
           "timestamp": "2026-11-13T00:00:00Z",
           "count": 0,
@@ -2026,6 +2021,11 @@
           "timestamp": "2026-11-25T00:00:00Z",
           "count": 4,
           "uniques": 1
+        },
+        {
+          "timestamp": "2026-11-26T00:00:00Z",
+          "count": 2,
+          "uniques": 2
         }
       ]
     },
@@ -3050,11 +3050,6 @@
       "views_uniques_total": 0,
       "views_daily": [
         {
-          "timestamp": "2026-11-12T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-11-13T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -3116,6 +3111,11 @@
         },
         {
           "timestamp": "2026-11-25T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-11-26T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -3206,11 +3206,6 @@
       "views_uniques_total": 0,
       "views_daily": [
         {
-          "timestamp": "2026-11-12T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-11-13T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -3272,6 +3267,11 @@
         },
         {
           "timestamp": "2026-11-25T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-11-26T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -3752,11 +3752,6 @@
       "views_uniques_total": 0,
       "views_daily": [
         {
-          "timestamp": "2026-11-12T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-11-13T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -3818,6 +3813,11 @@
         },
         {
           "timestamp": "2026-11-25T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-11-26T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -3830,11 +3830,6 @@
       "views_uniques_total": 0,
       "views_daily": [
         {
-          "timestamp": "2026-11-12T00:00:00Z",
-          "count": 0,
-          "uniques": 0
-        },
-        {
           "timestamp": "2026-11-13T00:00:00Z",
           "count": 0,
           "uniques": 0
@@ -3896,6 +3891,11 @@
         },
         {
           "timestamp": "2026-11-25T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-11-26T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
